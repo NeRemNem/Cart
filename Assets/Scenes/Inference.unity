@@ -935,6 +935,11 @@ PrefabInstance:
       propertyPath: DecisionPeriod
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1973570979153221396, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.22
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -1004,7 +1009,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 50954c41b6e0a9546880e39b70ec6fc7,
+      objectReference: {fileID: 5022602860645237092, guid: f5cc26495f756a44ca7dd567a21e5719,
         type: 3}
     - target: {fileID: 8760494638502963209, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -18878,7 +18883,7 @@ MonoBehaviour:
   courses:
   - {fileID: 2069388479}
   - {fileID: 1189168637}
-  course_id: 1
+  course_id: 0
   agents:
   - {fileID: 306718376}
 --- !u!1001 &501864288
@@ -22464,7 +22469,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 1b7c6d23d5c20694db7daca9fdff7426,
+      objectReference: {fileID: 5022602860645237092, guid: 49788fbb7b91b8c499c366dc780dd5c9,
         type: 3}
     - target: {fileID: 8760494638502963209, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -29306,7 +29311,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 2ad8a8d7950932d4680d336fd0c2b003,
+      objectReference: {fileID: 5022602860645237092, guid: c4d2e3f395f8dc84bac37d4ccc7f2bfd,
         type: 3}
     - target: {fileID: 8760494638502963209, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -30577,7 +30582,7 @@ MonoBehaviour:
   courses:
   - {fileID: 1547916474}
   - {fileID: 1834024518}
-  course_id: 1
+  course_id: 0
   agents:
   - {fileID: 106381404}
 --- !u!4 &817550320
@@ -49506,7 +49511,7 @@ MonoBehaviour:
   courses:
   - {fileID: 385016691}
   - {fileID: 325207923}
-  course_id: 1
+  course_id: 0
   agents:
   - {fileID: 8093817}
 --- !u!4 &1381582008
@@ -59598,7 +59603,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1598489792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68865,7 +68870,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 2ad8a8d7950932d4680d336fd0c2b003,
+      objectReference: {fileID: 5022602860645237092, guid: cfbcd66b2f0dedc49a0ed00008e19a7d,
         type: 3}
     - target: {fileID: 8760494638502963209, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -73302,12 +73307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1974912084 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2217444345239681124, guid: 9a92f3f32c8f0fc4482a893deac1ba4c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1974912080}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1974912085 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5912229852680609689, guid: 9a92f3f32c8f0fc4482a893deac1ba4c,
@@ -73716,27 +73715,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1974912119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974912084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  next_checkpoints: []
-  _next_nodes: 
 --- !u!114 &1974912120 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 443681955338740113, guid: 9a92f3f32c8f0fc4482a893deac1ba4c,
     type: 3}
   m_PrefabInstance: {fileID: 1974912080}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974912084}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
@@ -79873,6 +79858,11 @@ PrefabInstance:
       propertyPath: next_checkpoints.Array.data[0].collider
       value: 
       objectReference: {fileID: 742271542927780972}
+    - target: {fileID: 1077757728313444444, guid: 7f23706b6b6f4604396cfcf077dd6d53,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 1386515776628198694, guid: 7f23706b6b6f4604396cfcf077dd6d53,
         type: 3}
       propertyPath: next_checkpoints.Array.data[0].collider
@@ -79883,6 +79873,16 @@ PrefabInstance:
       propertyPath: next_checkpoints.Array.data[0].collider
       value: 
       objectReference: {fileID: 742271542927781003}
+    - target: {fileID: 1596461249074688573, guid: 7f23706b6b6f4604396cfcf077dd6d53,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 1625799047227097787, guid: 7f23706b6b6f4604396cfcf077dd6d53,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 1941061973782644308, guid: 7f23706b6b6f4604396cfcf077dd6d53,
         type: 3}
       propertyPath: next_checkpoints.Array.data[0].collider
@@ -79913,6 +79913,11 @@ PrefabInstance:
       propertyPath: next_checkpoints.Array.data[0].collider
       value: 
       objectReference: {fileID: 742271542927780970}
+    - target: {fileID: 7489229328387155331, guid: 7f23706b6b6f4604396cfcf077dd6d53,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f23706b6b6f4604396cfcf077dd6d53, type: 3}
 --- !u!114 &742271542927780952 stripped

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4945267839932099772}
   m_Layer: 14
   m_Name: Agent Checkpoint D 26
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4868148522989123210
 Rigidbody:
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 1319975442448763529}
   m_Layer: 14
   m_Name: Agent Checkpoint D 17
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,7 +122,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &377790392930372981
 Rigidbody:
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 4710579987152226941}
   m_Layer: 14
   m_Name: Agent Checkpoint D 18
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,7 +200,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4052266252521050937
 Rigidbody:
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 4026233215180877669}
   m_Layer: 14
   m_Name: Agent Checkpoint D 20
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -278,7 +278,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &117411311244815479
 Rigidbody:
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 2209275419478260465}
   m_Layer: 14
   m_Name: Agent Checkpoint D 34
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -356,7 +356,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2193872150954382022
 Rigidbody:
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 4816862782486806945}
   m_Layer: 14
   m_Name: Agent Checkpoint D 21
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -434,7 +434,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7912658737912788729
 Rigidbody:
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 4216095575280635476}
   m_Layer: 14
   m_Name: Agent Checkpoint D 4
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -512,7 +512,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &9067576269893491184
 Rigidbody:
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 2858464355591828338}
   m_Layer: 14
   m_Name: Agent Checkpoint D 23
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -590,7 +590,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2816306483600370932
 Rigidbody:
@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 443681955338740113}
   m_Layer: 14
   m_Name: Agent Checkpoint D 1
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,7 +816,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2217444345239681147
 Rigidbody:
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 6736944529302012343}
   m_Layer: 14
   m_Name: Agent Checkpoint D 24
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -961,7 +961,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1059879492432665604
 Rigidbody:
@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 4207332298133365543}
   m_Layer: 14
   m_Name: Agent Checkpoint D 3
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1039,7 +1039,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4925029787063531240
 Rigidbody:
@@ -1087,7 +1087,7 @@ GameObject:
   - component: {fileID: 9041051534346479836}
   m_Layer: 14
   m_Name: Agent Checkpoint D 19
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1117,7 +1117,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5823848440002678324
 Rigidbody:
@@ -1165,7 +1165,7 @@ GameObject:
   - component: {fileID: 6703247862326570780}
   m_Layer: 14
   m_Name: Agent Checkpoint D 10
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1195,7 +1195,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7186530517575843350
 Rigidbody:
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 8766587900047106139}
   m_Layer: 14
   m_Name: Agent Checkpoint D 25
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1273,7 +1273,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1291206790876372040
 Rigidbody:
@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 4453384816318815567}
   m_Layer: 14
   m_Name: Agent Checkpoint D 31
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1351,7 +1351,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6048062940015091659
 Rigidbody:
@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 4517612876268107962}
   m_Layer: 14
   m_Name: Agent Checkpoint D 2
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1429,7 +1429,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1456943824497073892
 Rigidbody:
@@ -1477,7 +1477,7 @@ GameObject:
   - component: {fileID: 6421915535788121918}
   m_Layer: 14
   m_Name: Agent Checkpoint D 6
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1507,7 +1507,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &639381635858339625
 Rigidbody:
@@ -1555,7 +1555,7 @@ GameObject:
   - component: {fileID: 9044477648000013952}
   m_Layer: 14
   m_Name: Agent Checkpoint D 28
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1585,7 +1585,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8008448612584350978
 Rigidbody:
@@ -1633,7 +1633,7 @@ GameObject:
   - component: {fileID: 5912229852680609689}
   m_Layer: 14
   m_Name: Agent Checkpoint D 35
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1663,7 +1663,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4744989695718712144
 Rigidbody:
@@ -1711,7 +1711,7 @@ GameObject:
   - component: {fileID: 6648420734761703221}
   m_Layer: 14
   m_Name: Agent Checkpoint D 13
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1741,7 +1741,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1197778847784423737
 Rigidbody:
@@ -1789,7 +1789,7 @@ GameObject:
   - component: {fileID: 5574784002565418645}
   m_Layer: 14
   m_Name: Agent Checkpoint D 29
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1819,7 +1819,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2957314359308895263
 Rigidbody:
@@ -1867,7 +1867,7 @@ GameObject:
   - component: {fileID: 4076381217297520863}
   m_Layer: 14
   m_Name: Agent Checkpoint D 12
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1897,7 +1897,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6905008793526416487
 Rigidbody:
@@ -1945,7 +1945,7 @@ GameObject:
   - component: {fileID: 857597139601495917}
   m_Layer: 14
   m_Name: Agent Checkpoint D 9
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1975,7 +1975,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7826186407913354217
 Rigidbody:
@@ -2023,7 +2023,7 @@ GameObject:
   - component: {fileID: 441633811942219387}
   m_Layer: 14
   m_Name: Agent Checkpoint D 27
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2053,7 +2053,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1179740271775905629
 Rigidbody:
@@ -2101,7 +2101,7 @@ GameObject:
   - component: {fileID: 5958068703245739880}
   m_Layer: 14
   m_Name: Agent Checkpoint D 30
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2131,7 +2131,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3372148586814763475
 Rigidbody:
@@ -2179,7 +2179,7 @@ GameObject:
   - component: {fileID: 6724969866092486179}
   m_Layer: 14
   m_Name: Agent Checkpoint D 14
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2209,7 +2209,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2597078913880496361
 Rigidbody:
@@ -2257,7 +2257,7 @@ GameObject:
   - component: {fileID: 6840881641310789573}
   m_Layer: 14
   m_Name: Agent Checkpoint D 36
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2287,7 +2287,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &9062486158258586491
 Rigidbody:
@@ -2335,7 +2335,7 @@ GameObject:
   - component: {fileID: 6801345590142121591}
   m_Layer: 14
   m_Name: Agent Checkpoint D 5
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2365,7 +2365,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5890149281169891419
 Rigidbody:
@@ -2413,7 +2413,7 @@ GameObject:
   - component: {fileID: 8122788705767173495}
   m_Layer: 14
   m_Name: Agent Checkpoint D 33
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2443,7 +2443,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8452294583591919431
 Rigidbody:
@@ -2491,7 +2491,7 @@ GameObject:
   - component: {fileID: 8632336142200865788}
   m_Layer: 14
   m_Name: Agent Checkpoint D 7
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2521,7 +2521,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4710538115917660799
 Rigidbody:
@@ -2569,7 +2569,7 @@ GameObject:
   - component: {fileID: 4205718729452975911}
   m_Layer: 14
   m_Name: Agent Checkpoint D 15
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2599,7 +2599,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4880652485887183529
 Rigidbody:
@@ -2647,7 +2647,7 @@ GameObject:
   - component: {fileID: 7414084721518248075}
   m_Layer: 14
   m_Name: Agent Checkpoint D 11
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2677,7 +2677,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7948605608082740782
 Rigidbody:
@@ -2725,7 +2725,7 @@ GameObject:
   - component: {fileID: 1857955769157385093}
   m_Layer: 14
   m_Name: Agent Checkpoint D 8
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2755,7 +2755,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4313996007498751042
 Rigidbody:
@@ -2803,7 +2803,7 @@ GameObject:
   - component: {fileID: 1168083403303179811}
   m_Layer: 14
   m_Name: Agent Checkpoint D 32
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2833,7 +2833,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4759541373588100639
 Rigidbody:
@@ -2881,7 +2881,7 @@ GameObject:
   - component: {fileID: 4527440783096112351}
   m_Layer: 14
   m_Name: Agent Checkpoint D 22
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2911,7 +2911,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4739056306105964523
 Rigidbody:
@@ -2959,7 +2959,7 @@ GameObject:
   - component: {fileID: 932890318320966262}
   m_Layer: 14
   m_Name: Agent Checkpoint D 16
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2989,7 +2989,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2988313273522322715
 Rigidbody:
@@ -3037,7 +3037,7 @@ GameObject:
   - component: {fileID: 414908688036502134}
   m_Layer: 14
   m_Name: Agent Checkpoint D 37
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3067,7 +3067,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 1, z: 1}
+  m_Size: {x: 1.2, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8341497528951936091
 Rigidbody:
@@ -3122,6 +3122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
@@ -3202,6 +3207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 43436360972620431, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
@@ -3293,6 +3303,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -3377,6 +3392,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
@@ -3463,6 +3483,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
       propertyPath: m_RootOrder
@@ -3547,6 +3572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
@@ -3633,6 +3663,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -3717,6 +3752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -3803,6 +3843,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -3887,6 +3932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4028,6 +4078,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 593336770641709958, guid: 4ceb0af72927442b89171edb85a2ccfa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ceb0af72927442b89171edb85a2ccfa, type: 3}
 --- !u!4 &1656767502901661173 stripped
@@ -4057,6 +4112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4148,6 +4208,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6602977218683501769, guid: 06604f26f581c4de08c3f45572924c7d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 6602977218683986153, guid: 06604f26f581c4de08c3f45572924c7d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4232,6 +4297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
@@ -4318,6 +4388,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4402,6 +4477,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4488,6 +4568,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4572,6 +4657,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4658,6 +4748,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4742,6 +4837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
@@ -4828,6 +4928,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
       propertyPath: m_RootOrder
@@ -4913,6 +5018,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4992,6 +5102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 43436360972620431, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
@@ -5083,6 +5198,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5167,6 +5287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5253,6 +5378,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
       propertyPath: m_RootOrder
@@ -5337,6 +5467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5423,6 +5558,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6573238964211286492, guid: e2299f494e1674e9684aad2e11474f9d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 6573238964211523068, guid: e2299f494e1674e9684aad2e11474f9d,
         type: 3}
       propertyPath: m_RootOrder
@@ -5507,6 +5647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5598,6 +5743,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5682,6 +5832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 43436360972620431, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
