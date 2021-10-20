@@ -44,7 +44,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &15830990
 Rigidbody:
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 8416805067842669989}
+  - collider: {fileID: 1990958980801489252}
     advantage: 1
   _next_nodes: 
 --- !u!1 &43242263
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 43242266}
   - component: {fileID: 43242265}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 19
+  m_Name: Agnet Checkpoint E 10
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,7 +110,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 18
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &43242267
 BoxCollider:
@@ -123,7 +123,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &43242266
 Rigidbody:
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 62640599}
   - component: {fileID: 62640598}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 45
+  m_Name: Agnet Checkpoint E 27
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,7 +189,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 44
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &62640600
 BoxCollider:
@@ -202,7 +202,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &62640599
 Rigidbody:
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 7645859064252128997}
+  - collider: {fileID: 1794842465}
     advantage: 1
   _next_nodes: 
 --- !u!1 &111272178
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 111272181}
   - component: {fileID: 111272180}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 20
+  m_Name: Agnet Checkpoint E 11
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,7 +268,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 19
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &111272179
 BoxCollider:
@@ -281,7 +281,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &111272181
 Rigidbody:
@@ -313,86 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 142403510}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &142403506
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 142403507}
-  - component: {fileID: 142403510}
-  - component: {fileID: 142403509}
-  - component: {fileID: 142403508}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 21
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &142403507
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142403506}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 2, y: 0.3, z: -50}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &142403510
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142403506}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &142403509
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142403506}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &142403508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142403506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 4142251696104115797}
+  - collider: {fileID: 8743079894831487618}
     advantage: 1
   _next_nodes: 
 --- !u!1 &187813214
@@ -408,7 +329,7 @@ GameObject:
   - component: {fileID: 187813217}
   - component: {fileID: 187813216}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 30
+  m_Name: Agnet Checkpoint E 17
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -426,7 +347,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 29
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &187813218
 BoxCollider:
@@ -439,7 +360,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &187813217
 Rigidbody:
@@ -471,7 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 6656185140873225976}
+  - collider: {fileID: 2141604510}
     advantage: 1
   _next_nodes: 
 --- !u!1 &410883551
@@ -502,139 +423,37 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 15830988}
-  - {fileID: 2472253027278655670}
   - {fileID: 800898435326375282}
-  - {fileID: 1249450991}
   - {fileID: 1222946819}
   - {fileID: 1314780216}
-  - {fileID: 4183143024258380803}
   - {fileID: 1770359192}
   - {fileID: 8360071334271832064}
-  - {fileID: 2141076965455089695}
   - {fileID: 8700406441200899628}
-  - {fileID: 1217980387067057509}
   - {fileID: 2006823901}
-  - {fileID: 4235166385183813725}
   - {fileID: 2348319355027677796}
-  - {fileID: 3563302591326516589}
-  - {fileID: 4957989591198541182}
-  - {fileID: 1896617964}
   - {fileID: 43242264}
   - {fileID: 111272182}
-  - {fileID: 142403507}
-  - {fileID: 8901316113126995796}
   - {fileID: 2102391785156189253}
   - {fileID: 3968130516720819189}
-  - {fileID: 2125109934}
   - {fileID: 1584279068}
   - {fileID: 1214598831}
   - {fileID: 8775154076961273355}
-  - {fileID: 1264768702}
   - {fileID: 187813215}
   - {fileID: 6923763592367423839}
   - {fileID: 8725253365524569760}
   - {fileID: 6261601442991318584}
-  - {fileID: 3586721352964001555}
   - {fileID: 5446085667311879425}
-  - {fileID: 8878887420283721836}
   - {fileID: 8638357544688486879}
-  - {fileID: 2777545218054076765}
   - {fileID: 2141604507}
   - {fileID: 1575580598}
-  - {fileID: 672833367}
   - {fileID: 1107944364}
   - {fileID: 1868793350}
-  - {fileID: 1932515578}
   - {fileID: 62640597}
-  - {fileID: 346443936881922043}
-  - {fileID: 2734193677530828291}
-  - {fileID: 6045393088552926654}
   - {fileID: 1794842462}
-  - {fileID: 2088433404}
   - {fileID: 1481442989}
-  - {fileID: 1503815569}
   m_Father: {fileID: 742271543264428408}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &672833363
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 672833367}
-  - component: {fileID: 672833364}
-  - component: {fileID: 672833366}
-  - component: {fileID: 672833365}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 41
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &672833367
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672833363}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 73.5, y: 0.3, z: -29.6}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 40
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &672833364
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672833363}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &672833366
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672833363}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &672833365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672833363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1107944367}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &1107944363
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,7 +467,7 @@ GameObject:
   - component: {fileID: 1107944366}
   - component: {fileID: 1107944365}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 42
+  m_Name: Agnet Checkpoint E 25
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -666,7 +485,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 41
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &1107944367
 BoxCollider:
@@ -679,7 +498,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1107944366
 Rigidbody:
@@ -727,7 +546,7 @@ GameObject:
   - component: {fileID: 1214598833}
   - component: {fileID: 1214598832}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 27
+  m_Name: Agnet Checkpoint E 15
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -745,7 +564,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 26
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &1214598834
 BoxCollider:
@@ -758,7 +577,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1214598833
 Rigidbody:
@@ -806,7 +625,7 @@ GameObject:
   - component: {fileID: 1222946821}
   - component: {fileID: 1222946820}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 5
+  m_Name: Agnet Checkpoint E 3
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -824,7 +643,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &1222946822
 BoxCollider:
@@ -837,7 +656,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1222946821
 Rigidbody:
@@ -872,166 +691,6 @@ MonoBehaviour:
   - collider: {fileID: 1314780219}
     advantage: 1
   _next_nodes: 
---- !u!1 &1249450990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1249450991}
-  - component: {fileID: 1249450994}
-  - component: {fileID: 1249450993}
-  - component: {fileID: 1249450992}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 4
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1249450991
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249450990}
-  m_LocalRotation: {x: 0, y: -0.92387956, z: 0, w: 0.38268343}
-  m_LocalPosition: {x: -35.1, y: 0.3, z: 16.8}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: -135, z: 0}
---- !u!65 &1249450994
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249450990}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1249450993
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249450990}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1249450992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249450990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1222946822}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &1264768701
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1264768702}
-  - component: {fileID: 1264768705}
-  - component: {fileID: 1264768704}
-  - component: {fileID: 1264768703}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 29
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1264768702
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264768701}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 42.3, y: 0.3, z: -90}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 28
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &1264768705
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264768701}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1264768704
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264768701}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1264768703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264768701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 187813218}
-    advantage: 1
-  - collider: {fileID: 6960749327948518957}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &1314780215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +704,7 @@ GameObject:
   - component: {fileID: 1314780218}
   - component: {fileID: 1314780217}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 6
+  m_Name: Agnet Checkpoint E 4
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1063,7 +722,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &1314780219
 BoxCollider:
@@ -1076,7 +735,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1314780218
 Rigidbody:
@@ -1108,7 +767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 3832988668808950679}
+  - collider: {fileID: 1770359195}
     advantage: 1
   _next_nodes: 
 --- !u!1 &1481442988
@@ -1124,7 +783,7 @@ GameObject:
   - component: {fileID: 1481442991}
   - component: {fileID: 1481442990}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 51
+  m_Name: Agnet Checkpoint E 29
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1142,7 +801,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 50
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &1481442992
 BoxCollider:
@@ -1155,7 +814,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1481442991
 Rigidbody:
@@ -1187,85 +846,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 1503815572}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &1503815568
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1503815569}
-  - component: {fileID: 1503815572}
-  - component: {fileID: 1503815571}
-  - component: {fileID: 1503815570}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 52
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1503815569
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503815568}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 55, y: 0.3, z: 20}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 51
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &1503815572
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503815568}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1503815571
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503815568}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1503815570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503815568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
   - collider: {fileID: 15830991}
     advantage: 1
   _next_nodes: 
@@ -1282,7 +862,7 @@ GameObject:
   - component: {fileID: 1575580600}
   - component: {fileID: 1575580599}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 40
+  m_Name: Agnet Checkpoint E 24
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1300,7 +880,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 39
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1575580601
 BoxCollider:
@@ -1313,7 +893,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1575580600
 Rigidbody:
@@ -1345,7 +925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 672833364}
+  - collider: {fileID: 1107944367}
     advantage: 1
   _next_nodes: 
 --- !u!1 &1584279064
@@ -1361,7 +941,7 @@ GameObject:
   - component: {fileID: 1584279067}
   - component: {fileID: 1584279066}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 26
+  m_Name: Agnet Checkpoint E 14
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1379,7 +959,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 25
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &1584279065
 BoxCollider:
@@ -1392,7 +972,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1584279067
 Rigidbody:
@@ -1440,7 +1020,7 @@ GameObject:
   - component: {fileID: 1770359194}
   - component: {fileID: 1770359193}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 8
+  m_Name: Agnet Checkpoint E 5
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1458,7 +1038,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &1770359195
 BoxCollider:
@@ -1471,7 +1051,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1770359194
 Rigidbody:
@@ -1505,7 +1085,7 @@ MonoBehaviour:
   next_checkpoints:
   - collider: {fileID: 7218916395761515428}
     advantage: 1
-  - collider: {fileID: 7980272860248772473}
+  - collider: {fileID: 7262115488754555183}
     advantage: 1
   _next_nodes: 
 --- !u!1 &1794842461
@@ -1521,7 +1101,7 @@ GameObject:
   - component: {fileID: 1794842464}
   - component: {fileID: 1794842463}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 49
+  m_Name: Agnet Checkpoint E 28
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1539,7 +1119,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 48
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1794842465
 BoxCollider:
@@ -1552,7 +1132,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1794842464
 Rigidbody:
@@ -1584,7 +1164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 2088433407}
+  - collider: {fileID: 1481442992}
     advantage: 1
   _next_nodes: 
 --- !u!1 &1868793349
@@ -1600,7 +1180,7 @@ GameObject:
   - component: {fileID: 1868793352}
   - component: {fileID: 1868793351}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 43
+  m_Name: Agnet Checkpoint E 26
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1618,7 +1198,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 42
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &1868793353
 BoxCollider:
@@ -1631,7 +1211,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1868793352
 Rigidbody:
@@ -1663,164 +1243,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 1932515581}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &1896617963
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1896617964}
-  - component: {fileID: 1896617967}
-  - component: {fileID: 1896617966}
-  - component: {fileID: 1896617965}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 18
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1896617964
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896617963}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18, y: 0.3, z: -80}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1896617967
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896617963}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1896617966
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896617963}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1896617965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896617963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 43242267}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &1932515577
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1932515578}
-  - component: {fileID: 1932515581}
-  - component: {fileID: 1932515580}
-  - component: {fileID: 1932515579}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 44
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1932515578
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932515577}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 92, y: 0.3, z: -100}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 43
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1932515581
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932515577}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1932515580
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932515577}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1932515579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932515577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
   - collider: {fileID: 62640600}
     advantage: 1
   _next_nodes: 
@@ -1837,7 +1259,7 @@ GameObject:
   - component: {fileID: 2006823903}
   - component: {fileID: 2006823902}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 13
+  m_Name: Agnet Checkpoint E 8
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1855,7 +1277,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &2006823904
 BoxCollider:
@@ -1868,7 +1290,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2006823903
 Rigidbody:
@@ -1900,165 +1322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 5955838056441494113}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &2088433403
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2088433404}
-  - component: {fileID: 2088433407}
-  - component: {fileID: 2088433406}
-  - component: {fileID: 2088433405}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 50
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2088433404
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088433403}
-  m_LocalRotation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 98.3, y: 0.3, z: 17.7}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 49
-  m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
---- !u!65 &2088433407
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088433403}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2088433406
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088433403}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2088433405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088433403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1481442992}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &2125109933
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2125109934}
-  - component: {fileID: 2125109937}
-  - component: {fileID: 2125109936}
-  - component: {fileID: 2125109935}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 25
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2125109934
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125109933}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22, y: 0.3, z: -50}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2125109937
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125109933}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2125109936
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125109933}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2125109935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125109933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1584279065}
+  - collider: {fileID: 3964279463126439372}
     advantage: 1
   _next_nodes: 
 --- !u!1 &2141604506
@@ -2074,7 +1338,7 @@ GameObject:
   - component: {fileID: 2141604509}
   - component: {fileID: 2141604508}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 39
+  m_Name: Agnet Checkpoint E 23
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2092,7 +1356,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 38
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2141604510
 BoxCollider:
@@ -2105,7 +1369,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2141604509
 Rigidbody:
@@ -2140,164 +1404,6 @@ MonoBehaviour:
   - collider: {fileID: 1575580601}
     advantage: 1
   _next_nodes: 
---- !u!1 &284870079401806196
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4235166385183813725}
-  - component: {fileID: 5955838056441494113}
-  - component: {fileID: 2672780764107054998}
-  - component: {fileID: 5642612855193144420}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 14
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4235166385183813725
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284870079401806196}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18, y: 0.3, z: -150}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5955838056441494113
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284870079401806196}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2672780764107054998
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284870079401806196}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5642612855193144420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284870079401806196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 3964279463126439372}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &371391294640996386
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3563302591326516589}
-  - component: {fileID: 7004356098079136278}
-  - component: {fileID: 1740260218033127046}
-  - component: {fileID: 8262753187645628374}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 16
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3563302591326516589
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371391294640996386}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18, y: 0.3, z: -109}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &7004356098079136278
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371391294640996386}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1740260218033127046
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371391294640996386}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &8262753187645628374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371391294640996386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 7528711568590645323}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &671975986941716790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,7 +1417,7 @@ GameObject:
   - component: {fileID: 2585393167191105683}
   - component: {fileID: 1386515776628198694}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 35
+  m_Name: Agnet Checkpoint E 21
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2329,7 +1435,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 34
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &4831507020044418567
 BoxCollider:
@@ -2342,7 +1448,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2585393167191105683
 Rigidbody:
@@ -2374,86 +1480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 6195025790154413664}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &689155790309556205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1217980387067057509}
-  - component: {fileID: 8169874629830116070}
-  - component: {fileID: 854398090142957546}
-  - component: {fileID: 4317301212272627773}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 12
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1217980387067057509
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689155790309556205}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -38, y: 0.3, z: -150}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &8169874629830116070
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689155790309556205}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &854398090142957546
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689155790309556205}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &4317301212272627773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 689155790309556205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 2006823904}
+  - collider: {fileID: 7863475014513710800}
     advantage: 1
   _next_nodes: 
 --- !u!1 &742271543264428409
@@ -2506,57 +1533,34 @@ MonoBehaviour:
   RayLength: 3
   Colliders:
   - {fileID: 15830991}
-  - {fileID: 8416805067842669989}
   - {fileID: 1990958980801489252}
-  - {fileID: 1249450994}
   - {fileID: 1222946822}
   - {fileID: 1314780219}
-  - {fileID: 3832988668808950679}
   - {fileID: 1770359195}
   - {fileID: 7218916395761515428}
-  - {fileID: 7980272860248772473}
   - {fileID: 7262115488754555183}
-  - {fileID: 8169874629830116070}
   - {fileID: 2006823904}
-  - {fileID: 5955838056441494113}
   - {fileID: 3964279463126439372}
-  - {fileID: 7004356098079136278}
-  - {fileID: 7528711568590645323}
-  - {fileID: 1896617967}
   - {fileID: 43242267}
   - {fileID: 111272179}
-  - {fileID: 142403510}
-  - {fileID: 4142251696104115797}
   - {fileID: 8743079894831487618}
   - {fileID: 1828362284091400262}
-  - {fileID: 2125109937}
   - {fileID: 1584279065}
   - {fileID: 1214598834}
   - {fileID: 6700606613818430938}
-  - {fileID: 1264768705}
   - {fileID: 187813218}
   - {fileID: 6960749327948518957}
   - {fileID: 4847666691486511575}
   - {fileID: 4167344461976208197}
-  - {fileID: 3292301639244216679}
   - {fileID: 4831507020044418567}
-  - {fileID: 6195025790154413664}
   - {fileID: 7863475014513710800}
-  - {fileID: 6656185140873225976}
   - {fileID: 2141604510}
   - {fileID: 1575580601}
-  - {fileID: 672833364}
   - {fileID: 1107944367}
   - {fileID: 1868793353}
-  - {fileID: 1932515581}
   - {fileID: 62640600}
-  - {fileID: 7645859064252128997}
-  - {fileID: 5700288680822669831}
-  - {fileID: 6515522623925947428}
   - {fileID: 1794842465}
-  - {fileID: 2088433407}
   - {fileID: 1481442992}
-  - {fileID: 1503815572}
   ColliderNameTemplate: Agnet Checkpoint E
 --- !u!1 &742271543356887032
 GameObject:
@@ -2650,7 +1654,7 @@ GameObject:
   - component: {fileID: 2022187062959654526}
   - component: {fileID: 7267809345104967457}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 3
+  m_Name: Agnet Checkpoint E 2
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2668,7 +1672,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &1990958980801489252
 BoxCollider:
@@ -2681,7 +1685,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2022187062959654526
 Rigidbody:
@@ -2713,165 +1717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 1249450994}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &1596461249074688573
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6045393088552926654}
-  - component: {fileID: 6515522623925947428}
-  - component: {fileID: 4205607989587863895}
-  - component: {fileID: 3443130409519979692}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 48
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6045393088552926654
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596461249074688573}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 102, y: 0.3, z: -20}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 47
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6515522623925947428
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596461249074688573}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4205607989587863895
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596461249074688573}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &3443130409519979692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596461249074688573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1794842465}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &1625799047227097787
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2472253027278655670}
-  - component: {fileID: 8416805067842669989}
-  - component: {fileID: 3442061970434973134}
-  - component: {fileID: 1521647750397991154}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 2
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2472253027278655670
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625799047227097787}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 10, y: 0.3, z: 20}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &8416805067842669989
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625799047227097787}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3442061970434973134
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625799047227097787}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1521647750397991154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625799047227097787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1990958980801489252}
+  - collider: {fileID: 1222946822}
     advantage: 1
   _next_nodes: 
 --- !u!1 &1719322161759434010
@@ -2887,7 +1733,7 @@ GameObject:
   - component: {fileID: 1874159116624819192}
   - component: {fileID: 4232396150950243967}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 23
+  m_Name: Agnet Checkpoint E 12
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2905,7 +1751,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 22
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &8743079894831487618
 BoxCollider:
@@ -2918,7 +1764,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1874159116624819192
 Rigidbody:
@@ -2966,7 +1812,7 @@ GameObject:
   - component: {fileID: 3804308483713445071}
   - component: {fileID: 1941061973782644308}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 32
+  m_Name: Agnet Checkpoint E 19
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2984,7 +1830,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 31
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &4847666691486511575
 BoxCollider:
@@ -2997,7 +1843,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3804308483713445071
 Rigidbody:
@@ -3032,243 +1878,6 @@ MonoBehaviour:
   - collider: {fileID: 4167344461976208197}
     advantage: 1
   _next_nodes: 
---- !u!1 &2176641604081305677
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2777545218054076765}
-  - component: {fileID: 6656185140873225976}
-  - component: {fileID: 6349511275476016338}
-  - component: {fileID: 595279698917175533}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 38
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2777545218054076765
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2176641604081305677}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.200005, y: 0.3, z: -95}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 37
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6656185140873225976
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2176641604081305677}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6349511275476016338
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2176641604081305677}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &595279698917175533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2176641604081305677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 2141604510}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &2262637528125266655
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8878887420283721836}
-  - component: {fileID: 6195025790154413664}
-  - component: {fileID: 1595160770683616660}
-  - component: {fileID: 7269044572305122796}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 36
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8878887420283721836
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2262637528125266655}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 60, y: 0.3, z: -130}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 35
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &6195025790154413664
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2262637528125266655}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1595160770683616660
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2262637528125266655}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &7269044572305122796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2262637528125266655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 7863475014513710800}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &2446413020132834178
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 346443936881922043}
-  - component: {fileID: 7645859064252128997}
-  - component: {fileID: 4992558323488501394}
-  - component: {fileID: 6430083465279456995}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 46
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &346443936881922043
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2446413020132834178}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102, y: 0.3, z: -60}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 45
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &7645859064252128997
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2446413020132834178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4992558323488501394
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2446413020132834178}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &6430083465279456995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2446413020132834178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 5700288680822669831}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &2486844120450228953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,7 +1891,7 @@ GameObject:
   - component: {fileID: 118342588824414564}
   - component: {fileID: 1609834150439991732}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 28
+  m_Name: Agnet Checkpoint E 16
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3300,7 +1909,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 27
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &6700606613818430938
 BoxCollider:
@@ -3313,7 +1922,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &118342588824414564
 Rigidbody:
@@ -3345,86 +1954,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 1264768705}
+  - collider: {fileID: 187813218}
     advantage: 1
-  _next_nodes: 
---- !u!1 &2754179306768680884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4183143024258380803}
-  - component: {fileID: 3832988668808950679}
-  - component: {fileID: 3944206737758518041}
-  - component: {fileID: 5572010402922429190}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 7
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4183143024258380803
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2754179306768680884}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -38, y: 0.3, z: -65}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &3832988668808950679
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2754179306768680884}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3944206737758518041
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2754179306768680884}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5572010402922429190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2754179306768680884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1770359195}
+  - collider: {fileID: 6960749327948518957}
     advantage: 1
   _next_nodes: 
 --- !u!1 &2940827213857337420
@@ -3440,7 +1972,7 @@ GameObject:
   - component: {fileID: 548444040921125478}
   - component: {fileID: 2456981403986739585}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 31
+  m_Name: Agnet Checkpoint E 18
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3458,7 +1990,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 30
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &6960749327948518957
 BoxCollider:
@@ -3471,7 +2003,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &548444040921125478
 Rigidbody:
@@ -3519,7 +2051,7 @@ GameObject:
   - component: {fileID: 128757171651556436}
   - component: {fileID: 270791323207823536}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 11
+  m_Name: Agnet Checkpoint E 7
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3537,7 +2069,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &7262115488754555183
 BoxCollider:
@@ -3550,7 +2082,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &128757171651556436
 Rigidbody:
@@ -3582,86 +2114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 8169874629830116070}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &5821055803189340356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2141076965455089695}
-  - component: {fileID: 7980272860248772473}
-  - component: {fileID: 4422148349320931298}
-  - component: {fileID: 1407507529494927339}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 10
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2141076965455089695
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5821055803189340356}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -38, y: 0.3, z: -109}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &7980272860248772473
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5821055803189340356}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4422148349320931298
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5821055803189340356}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1407507529494927339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5821055803189340356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 7262115488754555183}
+  - collider: {fileID: 2006823904}
     advantage: 1
   _next_nodes: 
 --- !u!1 &5910332021611405811
@@ -3677,7 +2130,7 @@ GameObject:
   - component: {fileID: 1386013673726172078}
   - component: {fileID: 6233635389232132453}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 33
+  m_Name: Agnet Checkpoint E 20
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3695,7 +2148,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 32
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &4167344461976208197
 BoxCollider:
@@ -3708,7 +2161,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1386013673726172078
 Rigidbody:
@@ -3740,7 +2193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 3292301639244216679}
+  - collider: {fileID: 4831507020044418567}
     advantage: 1
   _next_nodes: 
 --- !u!1 &5958647629651592658
@@ -3756,7 +2209,7 @@ GameObject:
   - component: {fileID: 1244748277814452728}
   - component: {fileID: 2115221527162849751}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 15
+  m_Name: Agnet Checkpoint E 9
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3774,7 +2227,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 14
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &3964279463126439372
 BoxCollider:
@@ -3787,7 +2240,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1244748277814452728
 Rigidbody:
@@ -3819,7 +2272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 7004356098079136278}
+  - collider: {fileID: 43242267}
     advantage: 1
   _next_nodes: 
 --- !u!1 &6381903136767893953
@@ -3835,7 +2288,7 @@ GameObject:
   - component: {fileID: 524123966374435134}
   - component: {fileID: 1921451470362874173}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 37
+  m_Name: Agnet Checkpoint E 22
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3853,7 +2306,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 36
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &7863475014513710800
 BoxCollider:
@@ -3866,7 +2319,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &524123966374435134
 Rigidbody:
@@ -3898,7 +2351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 6656185140873225976}
+  - collider: {fileID: 2141604510}
     advantage: 1
   _next_nodes: 
 --- !u!1 &6723662030612989991
@@ -3914,7 +2367,7 @@ GameObject:
   - component: {fileID: 4307832107862596563}
   - component: {fileID: 8998974144495293933}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 9
+  m_Name: Agnet Checkpoint E 6
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3932,7 +2385,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &7218916395761515428
 BoxCollider:
@@ -3945,7 +2398,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4307832107862596563
 Rigidbody:
@@ -3977,7 +2430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 7528711568590645323}
+  - collider: {fileID: 43242267}
     advantage: 1
   _next_nodes: 
 --- !u!1 &6950988255152149168
@@ -3993,7 +2446,7 @@ GameObject:
   - component: {fileID: 6186715286906031675}
   - component: {fileID: 4474019986719723949}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 24
+  m_Name: Agnet Checkpoint E 13
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4011,7 +2464,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
-  m_RootOrder: 23
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1828362284091400262
 BoxCollider:
@@ -4024,7 +2477,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6186715286906031675
 Rigidbody:
@@ -4056,323 +2509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 2125109937}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &7167079021339265855
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4957989591198541182}
-  - component: {fileID: 7528711568590645323}
-  - component: {fileID: 5821511126632805428}
-  - component: {fileID: 1512394439037817374}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 17
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4957989591198541182
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7167079021339265855}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18, y: 0.3, z: -94.3}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &7528711568590645323
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7167079021339265855}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5821511126632805428
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7167079021339265855}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1512394439037817374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7167079021339265855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1896617967}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &7489229328387155331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2734193677530828291}
-  - component: {fileID: 5700288680822669831}
-  - component: {fileID: 4193574850549955400}
-  - component: {fileID: 4537352425707129246}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 47
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2734193677530828291
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7489229328387155331}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 102, y: 0.3, z: -40}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 46
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5700288680822669831
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7489229328387155331}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4193574850549955400
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7489229328387155331}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &4537352425707129246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7489229328387155331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 6515522623925947428}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &7822422436586438941
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3586721352964001555}
-  - component: {fileID: 3292301639244216679}
-  - component: {fileID: 4725815274466605570}
-  - component: {fileID: 971840477812139594}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 34
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3586721352964001555
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7822422436586438941}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 52, y: 0.3, z: -165}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 33
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &3292301639244216679
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7822422436586438941}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4725815274466605570
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7822422436586438941}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &971840477812139594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7822422436586438941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 4831507020044418567}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &9000223333435681018
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8901316113126995796}
-  - component: {fileID: 4142251696104115797}
-  - component: {fileID: 5861415641430207633}
-  - component: {fileID: 6676274293994103038}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 22
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8901316113126995796
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000223333435681018}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 2, y: 0.3, z: -76}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &4142251696104115797
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000223333435681018}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5861415641430207633
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000223333435681018}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &6676274293994103038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000223333435681018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 8743079894831487618}
+  - collider: {fileID: 1584279065}
     advantage: 1
   _next_nodes: 
 --- !u!1001 &665266832713374384

@@ -9,28 +9,37 @@ using UnityEngine.Serialization;
 
 public class CartAgent : Agent, IInput
 {
-    [SerializeField]
-    private bool _is_recording = false;
+    [SerializeField] private bool _is_recording = false;
+ 
     private int checkpoint_count = 0;
     ArcadeKart m_Kart;
     bool m_Acceleration;
     bool m_Brake;
     float m_Steering;
-    int m_CheckpointID;
+    int _cur_checkpointID;
 
     public Course course;
     private int trackMask;
     private int checkpointMask;
+
     public trackSensor[] DeadSensors;
     public CheckpointSensor[] CheckpointSensors;
-    public Transform CheckpointSensorsTransform;
-    public Transform DeadSensorsTransform;
+    public CheckpointSensor[] SubCheckpointSensors;
+
+    public Transform checkpoint_sensors_tr;
+    public Transform sub_checkpoint_sensors_tr;
+    public Transform dead_sensros_tr;
 
     public LayerMask CheckpointMask;
-    public float timer = 0f;
+    private float _timer = 0f;
     private List<float> _checkpoint_sensor_obs_list = new List<float>();
+    private List<float> _sub_checkpoint_sensor_obs_list = new List<float>();
     private List<float> _dead_sensor_obs_list = new List<float>();
     public UnityEvent Goal = new UnityEvent();
+
+    
+    #region Sensor Structs
+
     [System.Serializable]
     public struct trackSensor
     {
@@ -48,9 +57,10 @@ public class CartAgent : Agent, IInput
         public float RayDistance;
     }
 
+    #endregion
+
     void Awake()
     {
-        
         m_Kart = GetComponent<ArcadeKart>();
         trackMask = 1 << LayerMask.NameToLayer("Track");
         checkpointMask = 1 << LayerMask.NameToLayer("TrainingCheckpoints");
@@ -59,15 +69,14 @@ public class CartAgent : Agent, IInput
     public void Init(Course course, int id, Collider collider)
     {
         this.course = course;
-        m_CheckpointID = id;
+        _cur_checkpointID = id;
         transform.localRotation = collider.transform.rotation;
         transform.position = collider.transform.position;
-
     }
 
     private void FixedUpdate()
     {
-        timer += Time.deltaTime;
+        _timer += Time.deltaTime;
     }
 
     public override void OnActionReceived(ActionBuffers actions)
@@ -77,41 +86,63 @@ public class CartAgent : Agent, IInput
         {
             AddReward(-0.1f);
         }
-        
-        AddReward(-6.0f/ MaxStep);
-        AddReward(m_Kart.LocalSpeed()/ (MaxStep));
-        AddReward((m_Acceleration && !m_Brake ? 1.0f:0.0f) / (MaxStep));
-        AddReward((ShotCheckpointRay() ? 1.0f:0.0f) / (MaxStep));
-        
+
+        AddReward(-4.1f / MaxStep);
+        AddReward(m_Kart.LocalSpeed() / (MaxStep));
     }
 
     private void PrepCheckpointObservation()
     {
         _checkpoint_sensor_obs_list.Clear();
-        for(int i = 0; i<CheckpointSensors.Length; i++)
+        for (int i = 0; i < CheckpointSensors.Length; i++)
         {
-            var obs = ShotCheckpointRay(CheckpointSensors[i]);
+            var obs = ShotCheckpointRay(CheckpointSensors[i],checkpoint_sensors_tr);
             _checkpoint_sensor_obs_list.Add(obs.Item1);
             _checkpoint_sensor_obs_list.Add(obs.Item2);
             _checkpoint_sensor_obs_list.Add(obs.Item3);
         }
+
+        _sub_checkpoint_sensor_obs_list.Clear();
+        for (int i = 0; i < SubCheckpointSensors.Length; i++)
+        {
+            var obs = ShotCheckpointRay(SubCheckpointSensors[i],sub_checkpoint_sensors_tr);
+            _sub_checkpoint_sensor_obs_list.Add(obs.Item1);
+            _sub_checkpoint_sensor_obs_list.Add(obs.Item2);
+            _sub_checkpoint_sensor_obs_list.Add(obs.Item3);
+        }
+        
     }
 
-    bool ShotCheckpointRay()
+    bool IsWrongWay() //잘못된길 가는것 방지, 잘못된길이면 True반환
     {
+        var sensor = true;
+        var sub_sensor = true;
         for (int i = 0; i < CheckpointSensors.Length; i++)
         {
             var xform = CheckpointSensors[i].Transform;
-            var hit = Physics.Raycast(CheckpointSensorsTransform.position, xform.forward, out var hitInfo
+            var hit = Physics.Raycast(checkpoint_sensors_tr.position, xform.forward, out var hitInfo
                 , CheckpointSensors[i].RayDistance, checkpointMask);
             if (hit)
             {
-                if (IsNextCheckpoint(hitInfo.collider))
-                    return true;
+                //다음 체크포인트 이거나, 현재 체크포인트일때 
+                if (IsNextCheckpoint(hitInfo.collider) || IsCurrentCheckpoint(hitInfo.collider))
+                    sensor = false;
             }
         }
-
-        return false;
+        for (int i = 0; i < SubCheckpointSensors.Length; i++)
+        {
+            var xform = SubCheckpointSensors[i].Transform;
+            var hit = Physics.Raycast(sub_checkpoint_sensors_tr.position, xform.forward, out var hitInfo
+                , SubCheckpointSensors[i].RayDistance, checkpointMask);
+            if (hit)
+            {
+                //다음 체크포인트 이거나, 현재 체크포인트일때 
+                if (IsNextCheckpoint(hitInfo.collider) || IsCurrentCheckpoint(hitInfo.collider))
+                    sub_sensor = false;
+            }
+        }
+        
+        return sensor && sub_sensor;
     }
 
     private void PrepDeadObservation()
@@ -124,11 +155,16 @@ public class CartAgent : Agent, IInput
             _dead_sensor_obs_list.Add(obs.Item2);
         }
     }
+
     public override void CollectObservations(VectorSensor sensor)
     {
+        sensor.AddObservation(IsWrongWay());
         //3*9
         PrepCheckpointObservation();
         sensor.AddObservation(_checkpoint_sensor_obs_list);
+        //3*9
+        sensor.AddObservation(_sub_checkpoint_sensor_obs_list);
+        
         //2*6
         PrepDeadObservation();
         sensor.AddObservation(_dead_sensor_obs_list);
@@ -158,74 +194,79 @@ public class CartAgent : Agent, IInput
         var triggered = maskedValue & CheckpointMask;
         if (triggered > 0 && IsNextCheckpoint(other))
         {
-            m_CheckpointID = other.GetInstanceID();
+            _cur_checkpointID = other.GetInstanceID();
             //도착
-            if (course.isTerminal(m_CheckpointID))
+            if (course.isTerminal(_cur_checkpointID))
             {
                 checkpoint_count = 0;
-                var score = ZFilter.GetScore(timer*-1);
-                SetReward((float)score);
+                var score = ZFilter.GetScore(_timer * -1);
+                SetReward((float) score);
                 Goal.Invoke();
                 EndEpisode();
             }
             //체크포인트
             else
             {
-                AddReward(2f/course.map.Count);
+                AddReward(2f / course.map.Count);
 #if UNITY_EDITOR
                 checkpoint_count++;
                 //20
-                if (checkpoint_count == 20 && _is_recording )
+                if (checkpoint_count == 20 && _is_recording)
                 {
                     UnityEditor.EditorApplication.isPlaying = false;
                 }
 #endif
             }
         }
-        else if (triggered > 0 && other.GetInstanceID() != m_CheckpointID)
+        else if (triggered > 0 && IsCurrentCheckpoint(other) == false)
         {
             AddReward(-1.0f);
             EndEpisode();
         }
     }
 
-    private (float,float) ShotDeadRay(trackSensor sensor)
+    // return (HitSomething, distance)
+    private (float, float) ShotDeadRay(trackSensor sensor)
     {
         var xform = sensor.Transform;
-        var hit = Physics.Raycast(DeadSensorsTransform.position, xform.forward, out var hitInfo
+        var hit = Physics.Raycast(dead_sensros_tr.position, xform.forward, out var hitInfo
             , sensor.RayDistance, trackMask);
-        return hit ? (1.0f,hitInfo.distance/sensor.RayDistance) : (0f,1f);
+        return hit ? (1.0f, hitInfo.distance / sensor.RayDistance) : (0f, 1f);
     }
 
-    private (float,float,float) ShotCheckpointRay(CheckpointSensor sensor)
+    // return (IsNextCheckpoint, HitSomething, distance)
+    private (float, float, float) ShotCheckpointRay(CheckpointSensor sensor, Transform sensor_tr)
     {
         var xform = sensor.Transform;
-        var hit = Physics.Raycast(CheckpointSensorsTransform.position, xform.forward, out var hitInfo
+        var hit = Physics.Raycast(sensor_tr.position, xform.forward, out var hitInfo
             , sensor.RayDistance, checkpointMask);
         if (hit)
         {
+            
             if (IsNextCheckpoint(hitInfo.collider))
-                return (1f,1f,hitInfo.distance/sensor.RayDistance);
-            else if (hitInfo.collider.GetInstanceID() != m_CheckpointID)
+                return (1f, 1f, hitInfo.distance / sensor.RayDistance);
+            else if (hitInfo.collider.GetInstanceID() != _cur_checkpointID)
             {
-                return (0f,1f,hitInfo.distance/sensor.RayDistance);
+                return (0f, 1f, hitInfo.distance / sensor.RayDistance);
             }
         }
 
-        return (0f,0f,1f);
+        return (0f, 0f, 1f);
     }
 
     private bool IsNextCheckpoint(Collider checkPoint)
     {
-        if (course.map[m_CheckpointID].Contains(checkPoint.GetInstanceID()))
+        if (course.map[_cur_checkpointID].Contains(checkPoint.GetInstanceID()))
             return true;
 
         return false;
     }
 
+    private bool IsCurrentCheckpoint(Collider checkpoint) => _cur_checkpointID == checkpoint.GetInstanceID();
+
     public override void OnEpisodeBegin()
     {
-        m_CheckpointID = course.StartPoint.GetInstanceID();
+        _cur_checkpointID = course.StartPoint.GetInstanceID();
 
         var collider = course.StartPoint;
         transform.localRotation = collider.transform.rotation;
@@ -234,10 +275,12 @@ public class CartAgent : Agent, IInput
         m_Kart.Rigidbody.velocity = default;
         m_Acceleration = false;
         m_Brake = false;
-        timer = 0f;
+        _timer = 0f;
         m_Steering = 0f;
     }
 
+
+    #region InputThings
 
     void InterpretDiscreteActions(ActionBuffers actions)
     {
@@ -272,6 +315,11 @@ public class CartAgent : Agent, IInput
         action_out[0] = (int) Input.GetAxisRaw("Horizontal") + 1;
     }
 
+    #endregion
+
+
+    #region DebugThings
+
     public void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.magenta;
@@ -279,7 +327,7 @@ public class CartAgent : Agent, IInput
 
         for (int i = 0; i < DeadSensors.Length; i++)
         {
-            Gizmos.DrawRay(DeadSensorsTransform.position
+            Gizmos.DrawRay(dead_sensros_tr.position
                 , DeadSensors[i].Transform.forward * DeadSensors[i].HitValidationDistance);
             if (Physics.Raycast(DeadSensors[i].Transform.position, DeadSensors[i].Transform.forward
                 , DeadSensors[i].HitValidationDistance, trackMask))
@@ -292,18 +340,20 @@ public class CartAgent : Agent, IInput
 
         for (int i = 0; i < CheckpointSensors.Length; i++)
         {
-            if (Physics.Raycast(CheckpointSensorsTransform.position, CheckpointSensors[i].Transform.forward
+            if (Physics.Raycast(checkpoint_sensors_tr.position, CheckpointSensors[i].Transform.forward
                 , out var hit, CheckpointSensors[i].RayDistance, checkpointMask))
             {
                 if (IsNextCheckpoint(hit.collider))
-                    Debug.DrawRay(CheckpointSensorsTransform.position,
+                    Debug.DrawRay(checkpoint_sensors_tr.position,
                         CheckpointSensors[i].Transform.forward * hit.distance, Color.green);
             }
             else
             {
-                Debug.DrawRay(CheckpointSensorsTransform.position, CheckpointSensors[i].Transform.forward
-                                                                   * CheckpointSensors[i].RayDistance, Color.cyan);
+                Debug.DrawRay(checkpoint_sensors_tr.position, CheckpointSensors[i].Transform.forward
+                                                              * CheckpointSensors[i].RayDistance, Color.cyan);
             }
         }
     }
+
+    #endregion
 }
