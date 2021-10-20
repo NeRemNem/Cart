@@ -6,6 +6,7 @@ using UnityEngine;
 public class CheckPoint : MonoBehaviour
 {
     private Collider _collider;
+    public string NextCollider;
     [System.Serializable]
     public struct NextCheckpoint
     {
@@ -28,6 +29,7 @@ public class CheckPoint : MonoBehaviour
         for (int i = 0; i < next_checkpoints.Length; i++)
         {
             _next_nodes.Add(next_checkpoints[i].collider.GetInstanceID());
+            NextCollider = next_checkpoints[i].collider.gameObject.name;
         }
     }
 

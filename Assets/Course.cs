@@ -6,7 +6,7 @@ using UnityEngine;
 public class Course : MonoBehaviour
 {
     [SerializeField]
-    private CheckPoint[] checkpoints;
+    public CheckPoint[] checkpoints;
     public Dictionary<int,List<int>> map = new Dictionary<int, List<int>>();
     public int start_point;
     public int terminal_point;

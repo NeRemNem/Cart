@@ -11,25 +11,25 @@ behaviors:
       num_epoch: 3
       learning_rate_schedule: linear
     network_settings:
-      normalize: false
+      normalize: true
       hidden_units: 256
       num_layers: 2
       vis_encode_type: simple
     reward_signals:
       extrinsic:
-        gamma: 0.95
+        gamma: 0.9
         strength: 1.0
       gail:
-        gamma: 0.95
-        strength: 0.2
+        gamma: 0.9
+        strength: 0.1
         network_settings:
           normalize: true
           hidden_units: 256
           num_layers: 2
         learning_rate: 0.0003
         use_actions: true
-        demo_path: R:/Dev/Kart/Assets/Demo/LRvEX32.demo
+        demo_path: R:/Cart/LRFF.demo
     keep_checkpoints: 5
-    max_steps: 1.0e7
+    max_steps: 7.0e6
     time_horizon: 10000
     summary_freq: 30000

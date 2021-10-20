@@ -44,7 +44,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &15830990
 Rigidbody:
@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 8416805067842669989}
     advantage: 1
@@ -91,7 +92,7 @@ GameObject:
   - component: {fileID: 43242266}
   - component: {fileID: 43242265}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 18
+  m_Name: Agnet Checkpoint E 19
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +123,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &43242266
 Rigidbody:
@@ -152,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 111272179}
     advantage: 1
@@ -169,7 +171,7 @@ GameObject:
   - component: {fileID: 62640599}
   - component: {fileID: 62640598}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 42
+  m_Name: Agnet Checkpoint E 45
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,7 +202,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &62640599
 Rigidbody:
@@ -230,6 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 7645859064252128997}
     advantage: 1
@@ -247,7 +250,7 @@ GameObject:
   - component: {fileID: 111272181}
   - component: {fileID: 111272180}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 19
+  m_Name: Agnet Checkpoint E 20
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -278,7 +281,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &111272181
 Rigidbody:
@@ -308,6 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 142403510}
     advantage: 1
@@ -325,7 +329,7 @@ GameObject:
   - component: {fileID: 142403509}
   - component: {fileID: 142403508}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 20
+  m_Name: Agnet Checkpoint E 21
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,7 +360,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &142403509
 Rigidbody:
@@ -386,6 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 4142251696104115797}
     advantage: 1
@@ -403,7 +408,7 @@ GameObject:
   - component: {fileID: 187813217}
   - component: {fileID: 187813216}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 28
+  m_Name: Agnet Checkpoint E 30
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -434,7 +439,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &187813217
 Rigidbody:
@@ -464,6 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 6656185140873225976}
     advantage: 1
@@ -479,7 +485,7 @@ GameObject:
   - component: {fileID: 410883552}
   m_Layer: 0
   m_Name: Agent Checkpoints
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -563,7 +569,7 @@ GameObject:
   - component: {fileID: 672833366}
   - component: {fileID: 672833365}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 38
+  m_Name: Agnet Checkpoint E 41
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -594,7 +600,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &672833366
 Rigidbody:
@@ -624,6 +630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1107944367}
     advantage: 1
@@ -641,7 +648,7 @@ GameObject:
   - component: {fileID: 1107944366}
   - component: {fileID: 1107944365}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 39
+  m_Name: Agnet Checkpoint E 42
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +679,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1107944366
 Rigidbody:
@@ -702,6 +709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1868793353}
     advantage: 1
@@ -719,7 +727,7 @@ GameObject:
   - component: {fileID: 1214598833}
   - component: {fileID: 1214598832}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 26
+  m_Name: Agnet Checkpoint E 27
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,7 +758,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1214598833
 Rigidbody:
@@ -780,6 +788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 6700606613818430938}
     advantage: 1
@@ -828,7 +837,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1222946821
 Rigidbody:
@@ -858,6 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1314780219}
     advantage: 1
@@ -906,7 +916,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1249450993
 Rigidbody:
@@ -936,6 +946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1222946822}
     advantage: 1
@@ -953,7 +964,7 @@ GameObject:
   - component: {fileID: 1264768704}
   - component: {fileID: 1264768703}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 27
+  m_Name: Agnet Checkpoint E 29
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -984,7 +995,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1264768704
 Rigidbody:
@@ -1014,6 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 187813218}
     advantage: 1
@@ -1064,7 +1076,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1314780218
 Rigidbody:
@@ -1094,6 +1106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 3832988668808950679}
     advantage: 1
@@ -1111,7 +1124,7 @@ GameObject:
   - component: {fileID: 1481442991}
   - component: {fileID: 1481442990}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 48
+  m_Name: Agnet Checkpoint E 51
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1142,7 +1155,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1481442991
 Rigidbody:
@@ -1172,6 +1185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1503815572}
     advantage: 1
@@ -1189,7 +1203,7 @@ GameObject:
   - component: {fileID: 1503815571}
   - component: {fileID: 1503815570}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 49
+  m_Name: Agnet Checkpoint E 52
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1220,7 +1234,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1503815571
 Rigidbody:
@@ -1250,6 +1264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 15830991}
     advantage: 1
@@ -1267,7 +1282,7 @@ GameObject:
   - component: {fileID: 1575580600}
   - component: {fileID: 1575580599}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 37
+  m_Name: Agnet Checkpoint E 40
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,7 +1313,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1575580600
 Rigidbody:
@@ -1328,6 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 672833364}
     advantage: 1
@@ -1345,7 +1361,7 @@ GameObject:
   - component: {fileID: 1584279067}
   - component: {fileID: 1584279066}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 25
+  m_Name: Agnet Checkpoint E 26
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1376,7 +1392,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1584279067
 Rigidbody:
@@ -1406,6 +1422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1214598834}
     advantage: 1
@@ -1454,7 +1471,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1770359194
 Rigidbody:
@@ -1484,6 +1501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 7218916395761515428}
     advantage: 1
@@ -1503,7 +1521,7 @@ GameObject:
   - component: {fileID: 1794842464}
   - component: {fileID: 1794842463}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 46
+  m_Name: Agnet Checkpoint E 49
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1534,7 +1552,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1794842464
 Rigidbody:
@@ -1564,6 +1582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 2088433407}
     advantage: 1
@@ -1581,7 +1600,7 @@ GameObject:
   - component: {fileID: 1868793352}
   - component: {fileID: 1868793351}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 40
+  m_Name: Agnet Checkpoint E 43
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1612,7 +1631,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1868793352
 Rigidbody:
@@ -1642,6 +1661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1932515581}
     advantage: 1
@@ -1659,7 +1679,7 @@ GameObject:
   - component: {fileID: 1896617966}
   - component: {fileID: 1896617965}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 17
+  m_Name: Agnet Checkpoint E 18
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1690,7 +1710,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1896617966
 Rigidbody:
@@ -1720,6 +1740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 43242267}
     advantage: 1
@@ -1737,7 +1758,7 @@ GameObject:
   - component: {fileID: 1932515580}
   - component: {fileID: 1932515579}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 41
+  m_Name: Agnet Checkpoint E 44
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1768,7 +1789,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1932515580
 Rigidbody:
@@ -1798,6 +1819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 62640600}
     advantage: 1
@@ -1846,7 +1868,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2006823903
 Rigidbody:
@@ -1876,6 +1898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 5955838056441494113}
     advantage: 1
@@ -1893,7 +1916,7 @@ GameObject:
   - component: {fileID: 2088433406}
   - component: {fileID: 2088433405}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 47
+  m_Name: Agnet Checkpoint E 50
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1924,7 +1947,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2088433406
 Rigidbody:
@@ -1954,6 +1977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1481442992}
     advantage: 1
@@ -1971,7 +1995,7 @@ GameObject:
   - component: {fileID: 2125109936}
   - component: {fileID: 2125109935}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 24
+  m_Name: Agnet Checkpoint E 25
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2002,7 +2026,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2125109936
 Rigidbody:
@@ -2032,6 +2056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1584279065}
     advantage: 1
@@ -2049,7 +2074,7 @@ GameObject:
   - component: {fileID: 2141604509}
   - component: {fileID: 2141604508}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 36
+  m_Name: Agnet Checkpoint E 39
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2080,7 +2105,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2141604509
 Rigidbody:
@@ -2110,6 +2135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1575580601}
     advantage: 1
@@ -2158,7 +2184,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2672780764107054998
 Rigidbody:
@@ -2188,6 +2214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 3964279463126439372}
     advantage: 1
@@ -2236,7 +2263,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1740260218033127046
 Rigidbody:
@@ -2266,6 +2293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 7528711568590645323}
     advantage: 1
@@ -2283,7 +2311,7 @@ GameObject:
   - component: {fileID: 2585393167191105683}
   - component: {fileID: 1386515776628198694}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 33
+  m_Name: Agnet Checkpoint E 35
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2314,7 +2342,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2585393167191105683
 Rigidbody:
@@ -2344,6 +2372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 6195025790154413664}
     advantage: 1
@@ -2392,7 +2421,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &854398090142957546
 Rigidbody:
@@ -2422,6 +2451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 2006823904}
     advantage: 1
@@ -2502,6 +2532,7 @@ MonoBehaviour:
   - {fileID: 2125109937}
   - {fileID: 1584279065}
   - {fileID: 1214598834}
+  - {fileID: 6700606613818430938}
   - {fileID: 1264768705}
   - {fileID: 187813218}
   - {fileID: 6960749327948518957}
@@ -2538,7 +2569,7 @@ GameObject:
   - component: {fileID: 742271543356887015}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2620,7 +2651,7 @@ GameObject:
   - component: {fileID: 7267809345104967457}
   m_Layer: 14
   m_Name: Agnet Checkpoint E 3
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2650,7 +2681,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2022187062959654526
 Rigidbody:
@@ -2680,6 +2711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1249450994}
     advantage: 1
@@ -2697,8 +2729,8 @@ GameObject:
   - component: {fileID: 4205607989587863895}
   - component: {fileID: 3443130409519979692}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 45
-  m_TagString: Untagged
+  m_Name: Agnet Checkpoint E 48
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2728,7 +2760,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4205607989587863895
 Rigidbody:
@@ -2758,6 +2790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1794842465}
     advantage: 1
@@ -2776,7 +2809,7 @@ GameObject:
   - component: {fileID: 1521647750397991154}
   m_Layer: 14
   m_Name: Agnet Checkpoint E 2
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2806,7 +2839,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3442061970434973134
 Rigidbody:
@@ -2836,6 +2869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1990958980801489252}
     advantage: 1
@@ -2853,7 +2887,7 @@ GameObject:
   - component: {fileID: 1874159116624819192}
   - component: {fileID: 4232396150950243967}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 22
+  m_Name: Agnet Checkpoint E 23
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2884,7 +2918,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1874159116624819192
 Rigidbody:
@@ -2914,6 +2948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1828362284091400262}
     advantage: 1
@@ -2931,7 +2966,7 @@ GameObject:
   - component: {fileID: 3804308483713445071}
   - component: {fileID: 1941061973782644308}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 30
+  m_Name: Agnet Checkpoint E 32
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2962,7 +2997,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3804308483713445071
 Rigidbody:
@@ -2992,6 +3027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 4167344461976208197}
     advantage: 1
@@ -3009,7 +3045,7 @@ GameObject:
   - component: {fileID: 6349511275476016338}
   - component: {fileID: 595279698917175533}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 35 (1)
+  m_Name: Agnet Checkpoint E 38
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3040,7 +3076,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6349511275476016338
 Rigidbody:
@@ -3070,6 +3106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 2141604510}
     advantage: 1
@@ -3087,7 +3124,7 @@ GameObject:
   - component: {fileID: 1595160770683616660}
   - component: {fileID: 7269044572305122796}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 34
+  m_Name: Agnet Checkpoint E 36
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3118,7 +3155,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1595160770683616660
 Rigidbody:
@@ -3148,6 +3185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 7863475014513710800}
     advantage: 1
@@ -3165,7 +3203,7 @@ GameObject:
   - component: {fileID: 4992558323488501394}
   - component: {fileID: 6430083465279456995}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 43
+  m_Name: Agnet Checkpoint E 46
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3196,7 +3234,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4992558323488501394
 Rigidbody:
@@ -3226,6 +3264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 5700288680822669831}
     advantage: 1
@@ -3243,7 +3282,7 @@ GameObject:
   - component: {fileID: 118342588824414564}
   - component: {fileID: 1609834150439991732}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 26 (1)
+  m_Name: Agnet Checkpoint E 28
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3274,7 +3313,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &118342588824414564
 Rigidbody:
@@ -3304,6 +3343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1264768705}
     advantage: 1
@@ -3352,7 +3392,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3944206737758518041
 Rigidbody:
@@ -3382,6 +3422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1770359195}
     advantage: 1
@@ -3399,7 +3440,7 @@ GameObject:
   - component: {fileID: 548444040921125478}
   - component: {fileID: 2456981403986739585}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 29
+  m_Name: Agnet Checkpoint E 31
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3430,7 +3471,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &548444040921125478
 Rigidbody:
@@ -3460,6 +3501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 4847666691486511575}
     advantage: 1
@@ -3508,7 +3550,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &128757171651556436
 Rigidbody:
@@ -3538,6 +3580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 8169874629830116070}
     advantage: 1
@@ -3586,7 +3629,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4422148349320931298
 Rigidbody:
@@ -3616,6 +3659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 7262115488754555183}
     advantage: 1
@@ -3633,7 +3677,7 @@ GameObject:
   - component: {fileID: 1386013673726172078}
   - component: {fileID: 6233635389232132453}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 31
+  m_Name: Agnet Checkpoint E 33
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3664,7 +3708,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1386013673726172078
 Rigidbody:
@@ -3694,6 +3738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 3292301639244216679}
     advantage: 1
@@ -3742,7 +3787,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1244748277814452728
 Rigidbody:
@@ -3772,6 +3817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 7004356098079136278}
     advantage: 1
@@ -3789,7 +3835,7 @@ GameObject:
   - component: {fileID: 524123966374435134}
   - component: {fileID: 1921451470362874173}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 35
+  m_Name: Agnet Checkpoint E 37
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3820,7 +3866,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &524123966374435134
 Rigidbody:
@@ -3850,6 +3896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 6656185140873225976}
     advantage: 1
@@ -3898,7 +3945,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4307832107862596563
 Rigidbody:
@@ -3928,6 +3975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 7528711568590645323}
     advantage: 1
@@ -3945,7 +3993,7 @@ GameObject:
   - component: {fileID: 6186715286906031675}
   - component: {fileID: 4474019986719723949}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 23
+  m_Name: Agnet Checkpoint E 24
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3976,7 +4024,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6186715286906031675
 Rigidbody:
@@ -4006,6 +4054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 2125109937}
     advantage: 1
@@ -4023,7 +4072,7 @@ GameObject:
   - component: {fileID: 5821511126632805428}
   - component: {fileID: 1512394439037817374}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 16 (1)
+  m_Name: Agnet Checkpoint E 17
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4054,7 +4103,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5821511126632805428
 Rigidbody:
@@ -4084,6 +4133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 1896617967}
     advantage: 1
@@ -4101,8 +4151,8 @@ GameObject:
   - component: {fileID: 4193574850549955400}
   - component: {fileID: 4537352425707129246}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 44
-  m_TagString: Untagged
+  m_Name: Agnet Checkpoint E 47
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4132,7 +4182,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4193574850549955400
 Rigidbody:
@@ -4162,6 +4212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 6515522623925947428}
     advantage: 1
@@ -4179,7 +4230,7 @@ GameObject:
   - component: {fileID: 4725815274466605570}
   - component: {fileID: 971840477812139594}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 32
+  m_Name: Agnet Checkpoint E 34
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4210,7 +4261,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4725815274466605570
 Rigidbody:
@@ -4240,6 +4291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 4831507020044418567}
     advantage: 1
@@ -4257,7 +4309,7 @@ GameObject:
   - component: {fileID: 5861415641430207633}
   - component: {fileID: 6676274293994103038}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 21
+  m_Name: Agnet Checkpoint E 22
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4288,7 +4340,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 4, z: 1}
+  m_Size: {x: 1.5, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5861415641430207633
 Rigidbody:
@@ -4318,6 +4370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextCollider: 
   next_checkpoints:
   - collider: {fileID: 8743079894831487618}
     advantage: 1
@@ -4333,6 +4386,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4414,6 +4472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -4488,6 +4551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4569,6 +4637,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -4643,6 +4716,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4724,6 +4802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4798,6 +4881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -4879,6 +4967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4958,6 +5051,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5039,6 +5137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -5113,6 +5216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5194,6 +5302,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5274,6 +5387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -5348,6 +5466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5429,6 +5552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -5503,6 +5631,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackCurveMedium (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
@@ -5586,11 +5719,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -38
       objectReference: {fileID: 0}
@@ -5658,6 +5786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5739,6 +5872,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5819,6 +5957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -5893,6 +6036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -5973,6 +6121,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackCurveMedium (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
@@ -6109,6 +6262,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6855083379469313493, guid: 4689d140d85d04d49947413ce1507d9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4689d140d85d04d49947413ce1507d9c, type: 3}
 --- !u!4 &3465202072199350315 stripped
@@ -6128,6 +6286,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackCurveMedium (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
@@ -6264,6 +6427,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6855083379469313493, guid: 4689d140d85d04d49947413ce1507d9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4689d140d85d04d49947413ce1507d9c, type: 3}
 --- !u!4 &3465202072360036296 stripped
@@ -6283,6 +6451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -6364,6 +6537,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -6438,6 +6616,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -6519,6 +6702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -6598,6 +6786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -6679,6 +6872,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -6754,6 +6952,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -6828,6 +7031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -6969,6 +7177,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6855083379469313493, guid: 4689d140d85d04d49947413ce1507d9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4689d140d85d04d49947413ce1507d9c, type: 3}
 --- !u!4 &71779444263532952 stripped
@@ -6988,6 +7201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -7069,6 +7287,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7148,6 +7371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -7229,6 +7457,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7308,6 +7541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -7389,6 +7627,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackStraight (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7468,6 +7711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -7609,6 +7857,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6855083379469313493, guid: 4689d140d85d04d49947413ce1507d9c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4689d140d85d04d49947413ce1507d9c, type: 3}
 --- !u!4 &7347396486138732085 stripped
@@ -7628,6 +7881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -7709,6 +7967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -7783,6 +8046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackCurveMedium (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
@@ -7859,6 +8127,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -7934,6 +8207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ModularTrackCurveMedium (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 43436360972620429, guid: 4f11626d6f47a444289c55bbe896ec98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
+      objectReference: {fileID: 0}
     - target: {fileID: 43436360972652205, guid: 4f11626d6f47a444289c55bbe896ec98,
         type: 3}
       propertyPath: m_RootOrder
@@ -8008,6 +8286,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}
@@ -8088,6 +8371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ModularTrackStraight (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1579282987822437358, guid: 941fac9249b6442cdb2d3f23472128e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Track
       objectReference: {fileID: 0}
     - target: {fileID: 1579282987822796750, guid: 941fac9249b6442cdb2d3f23472128e2,
         type: 3}

@@ -4,6 +4,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 public class CartAgent : Agent, IInput
@@ -29,8 +30,7 @@ public class CartAgent : Agent, IInput
     public float timer = 0f;
     private List<float> _checkpoint_sensor_obs_list = new List<float>();
     private List<float> _dead_sensor_obs_list = new List<float>();
-    
- 
+    public UnityEvent Goal = new UnityEvent();
     [System.Serializable]
     public struct trackSensor
     {
@@ -54,7 +54,6 @@ public class CartAgent : Agent, IInput
         m_Kart = GetComponent<ArcadeKart>();
         trackMask = 1 << LayerMask.NameToLayer("Track");
         checkpointMask = 1 << LayerMask.NameToLayer("TrainingCheckpoints");
-        
     }
 
     public void Init(Course course, int id, Collider collider)
@@ -77,12 +76,6 @@ public class CartAgent : Agent, IInput
         if (isHitWall())
         {
             AddReward(-0.1f);
-            //EndEpisode();
-
-#if UNITY_EDITOR
-            if(_is_recording)
-                EndEpisode();
-#endif
         }
         
         AddReward(-6.0f/ MaxStep);
@@ -172,6 +165,7 @@ public class CartAgent : Agent, IInput
                 checkpoint_count = 0;
                 var score = ZFilter.GetScore(timer*-1);
                 SetReward((float)score);
+                Goal.Invoke();
                 EndEpisode();
             }
             //체크포인트
@@ -180,6 +174,7 @@ public class CartAgent : Agent, IInput
                 AddReward(2f/course.map.Count);
 #if UNITY_EDITOR
                 checkpoint_count++;
+                //20
                 if (checkpoint_count == 20 && _is_recording )
                 {
                     UnityEditor.EditorApplication.isPlaying = false;
