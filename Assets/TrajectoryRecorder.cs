@@ -22,10 +22,14 @@ public class TrajectoryRecorder : MonoBehaviour
     public bool record_full_track = false;
     public string name = "";
     private bool _is_saved = false;
+    private string _model_name = "";
+    private int record_count = 0;
 
     private void Awake()
     {
         _behavior_parameters = GetComponent<BehaviorParameters>();
+        if (_behavior_parameters.Model != null)
+            _model_name = _behavior_parameters.Model.name;
         if (destination == null)
         {
             record_full_track = true;
@@ -51,8 +55,8 @@ public class TrajectoryRecorder : MonoBehaviour
         if (GetComponent<TrajectoryRecorder>().isActiveAndEnabled 
                 && _is_saved == false)
         {
-
-            _is_saved = true;
+            if(record_full_track == false)
+                _is_saved = true;
             try
             {
                 string json = JsonUtility.ToJson(_data, true);
@@ -62,16 +66,34 @@ public class TrajectoryRecorder : MonoBehaviour
                     Debug.Log("json null");
                     return;
                 }
-                string path = save_path + "/" +name+"_"+_behavior_parameters.Model.name+".json";
+
+                string path = "";
+                if(_model_name == "")
+                    path = save_path + "/" +name+".json";
+                else
+                    path = save_path + "/" +name+"_"+_model_name+".json";
                 var i = 0;
                 while (File.Exists(path))
                 {
-                    path = save_path + "/"+name+"_"+ _behavior_parameters.Model.name+"_"+i+".json";
+                    ++i;
+                    if(_model_name == "")
+                        path = save_path + "/" +name+"_"+i+".json";
+                    else
+                        path = save_path + "/" +name+"_"+_model_name+"_"+i+".json";
                 }
                 File.WriteAllText(path, json);
 
                 Debug.Log(json);
+                record_count++;
+#if UNITY_EDITOR
+
+                if (record_count >= 5)
+                    _is_saved = true;
+#endif
+
+                _data = new data();
             }
+          
             catch (FileNotFoundException e)
             {
                 Debug.Log("The file was not found:" + e.Message);

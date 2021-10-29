@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 3938620969341092131}
   - component: {fileID: 7246396134957973791}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 28
+  m_Name: Agent Checkpoint D 24
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2335059943764552559
 Transform:
@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 27
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &409407068935791847
 BoxCollider:
@@ -44,7 +44,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3938620969341092131
 Rigidbody:
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 108756304076940423}
+  - collider: {fileID: 1560510574624130103}
     advantage: 1
   _next_nodes: 
 --- !u!1 &713062165372948288
@@ -92,11 +92,11 @@ GameObject:
   - component: {fileID: 6763593379896142375}
   - component: {fileID: 8671621174719499594}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 12
+  m_Name: Agent Checkpoint D 11
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5560291143275026864
 Transform:
@@ -110,7 +110,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!65 &2439769807014850287
 BoxCollider:
@@ -123,7 +123,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6763593379896142375
 Rigidbody:
@@ -171,11 +171,11 @@ GameObject:
   - component: {fileID: 533518777401197415}
   - component: {fileID: 8171656239678672202}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 33
+  m_Name: Agent Checkpoint D 28
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2809322507909604928
 Transform:
@@ -189,7 +189,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 32
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 40, z: 0}
 --- !u!65 &4956412136904489339
 BoxCollider:
@@ -202,7 +202,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &533518777401197415
 Rigidbody:
@@ -237,6 +237,85 @@ MonoBehaviour:
   - collider: {fileID: 7665252652320616262}
     advantage: 1
   _next_nodes: 
+--- !u!1 &875821694535432150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807642894405804820}
+  - component: {fileID: 2963163036863063079}
+  - component: {fileID: 3942942590128711973}
+  - component: {fileID: 8468375961088433882}
+  m_Layer: 14
+  m_Name: Agent Checkpoint D 7
+  m_TagString: Checkpoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
+--- !u!4 &1807642894405804820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875821694535432150}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -56, y: 0.3, z: 27}
+  m_LocalScale: {x: 9, y: 3, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 7665252652223898996}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!65 &2963163036863063079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875821694535432150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 6, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3942942590128711973
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875821694535432150}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8468375961088433882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875821694535432150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextCollider: 
+  next_checkpoints:
+  - collider: {fileID: 3378403067545366220}
+    advantage: 1
+  _next_nodes: 
 --- !u!1 &1063530087217131677
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,11 +329,11 @@ GameObject:
   - component: {fileID: 3846357570889449687}
   - component: {fileID: 5364121585001837539}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 18
+  m_Name: Agent Checkpoint D 17
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6347676612799838776
 Transform:
@@ -268,7 +347,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!65 &2536265359447802598
 BoxCollider:
@@ -281,7 +360,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3846357570889449687
 Rigidbody:
@@ -313,7 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 7556286593001087951}
+  - collider: {fileID: 3464970566383008771}
     advantage: 1
   _next_nodes: 
 --- !u!1 &1444522145659186748
@@ -333,7 +412,7 @@ GameObject:
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &269221017221567547
 Transform:
@@ -347,7 +426,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -135, z: 0}
 --- !u!65 &4197878632791197431
 BoxCollider:
@@ -360,7 +439,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2673872497935529831
 Rigidbody:
@@ -395,164 +474,6 @@ MonoBehaviour:
   - collider: {fileID: 4172535342816697187}
     advantage: 1
   _next_nodes: 
---- !u!1 &1534461899427910473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6970940388387357120}
-  - component: {fileID: 108756304076940423}
-  - component: {fileID: 137665911823861883}
-  - component: {fileID: 296237038159264331}
-  m_Layer: 14
-  m_Name: Agent Checkpoint D 29
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6970940388387357120
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534461899427910473}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1, y: 0.3, z: 6}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 28
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &108756304076940423
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534461899427910473}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &137665911823861883
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534461899427910473}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &296237038159264331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534461899427910473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1560510574624130103}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &1661191278660706024
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4710258815993545505}
-  - component: {fileID: 6171936753051017705}
-  - component: {fileID: 3889617197213979971}
-  - component: {fileID: 245926334984049856}
-  m_Layer: 14
-  m_Name: Agent Checkpoint D 7
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4710258815993545505
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661191278660706024}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: -50, y: 0.3, z: 45}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!65 &6171936753051017705
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661191278660706024}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3889617197213979971
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661191278660706024}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &245926334984049856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661191278660706024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 7109705867345137588}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &2461100610945723721
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,11 +487,11 @@ GameObject:
   - component: {fileID: 676076968308937799}
   - component: {fileID: 3047303989635270905}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 32
+  m_Name: Agent Checkpoint D 27
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2270306799212540021
 Transform:
@@ -584,7 +505,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 31
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 60, z: 0}
 --- !u!65 &929600414355439611
 BoxCollider:
@@ -597,7 +518,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &676076968308937799
 Rigidbody:
@@ -648,7 +569,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973059951846
 Transform:
@@ -730,7 +651,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973059951854
 Transform:
@@ -827,7 +748,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973239928259
 Transform:
@@ -923,7 +844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973239928267
 Transform:
@@ -1005,7 +926,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973464545525
 Transform:
@@ -1101,7 +1022,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973464545533
 Transform:
@@ -1182,7 +1103,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973499557650
 Transform:
@@ -1264,7 +1185,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973499557658
 Transform:
@@ -1361,7 +1282,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973659332304
 Transform:
@@ -1370,14 +1291,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3555772973659030256}
-  m_LocalRotation: {x: -0, y: 0.70776975, z: -0, w: 0.7064432}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 48.1, y: 0, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3555772973659332312}
   m_Father: {fileID: 7665252652615350200}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 90.107, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &3555772973658038004
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1457,7 +1378,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772973659332312
 Transform:
@@ -1538,7 +1459,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974004603634
 Transform:
@@ -1620,7 +1541,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974004603642
 Transform:
@@ -1717,7 +1638,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974136165218
 Transform:
@@ -1726,14 +1647,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3555772974136401730}
-  m_LocalRotation: {x: -0, y: 0.70710886, z: -0, w: 0.70710474}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -28, y: 0, z: -43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3555772974136165226}
   m_Father: {fileID: 7665252652615350200}
   m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &3555772974137492294
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1813,7 +1734,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974136165226
 Transform:
@@ -1894,7 +1815,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974330452789
 Transform:
@@ -1976,7 +1897,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974330452797
 Transform:
@@ -1985,14 +1906,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3555772974330087197}
-  m_LocalRotation: {x: -0, y: 0.000002786517, z: -0, w: -1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -62, y: 0, z: 62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3555772974330452789}
   m_Father: {fileID: 7665252652615350200}
   m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3555772974329158425
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2072,7 +1993,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974984259712
 Transform:
@@ -2154,7 +2075,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772974984259720
 Transform:
@@ -2251,7 +2172,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772975157654838
 Transform:
@@ -2260,14 +2181,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3555772975157553430}
-  m_LocalRotation: {x: -0, y: 0.7077699, z: -0, w: 0.7064432}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -51, y: 0, z: 26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3555772975157654846}
   m_Father: {fileID: 7665252652615350200}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 90.108, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &3555772975154263314
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2347,7 +2268,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3555772975157654846
 Transform:
@@ -2428,7 +2349,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3585444089341597798
 Transform:
@@ -2510,7 +2431,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3585444089341597806
 Transform:
@@ -2519,14 +2440,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3585444089341756494}
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -30, y: 0, z: 76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3585444089341597798}
   m_Father: {fileID: 7665252652615350200}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &3585444089338697806
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2603,11 +2524,11 @@ GameObject:
   - component: {fileID: 5813917105309110229}
   - component: {fileID: 3023717692686420255}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 11
+  m_Name: Agent Checkpoint D 10
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8497786326226557674
 Transform:
@@ -2621,7 +2542,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!65 &3948982434961289609
 BoxCollider:
@@ -2634,7 +2555,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5813917105309110229
 Rigidbody:
@@ -2682,11 +2603,11 @@ GameObject:
   - component: {fileID: 7276344512155852897}
   - component: {fileID: 8252139135047518535}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 23
+  m_Name: Agent Checkpoint D 21
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &101869846402997311
 Transform:
@@ -2700,7 +2621,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 22
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &698635692154693529
 BoxCollider:
@@ -2713,7 +2634,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7276344512155852897
 Rigidbody:
@@ -2745,10 +2666,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 8081959119071224469}
+  - collider: {fileID: 409407068935791847}
     advantage: 1
   _next_nodes: 
---- !u!1 &3966373046952462546
+--- !u!1 &4352818788000965668
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2756,51 +2677,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8384484451155719481}
-  - component: {fileID: 6041268312698894808}
-  - component: {fileID: 6514953887809054447}
-  - component: {fileID: 2741228336416092244}
+  - component: {fileID: 7742393076034421070}
+  - component: {fileID: 3378403067545366220}
+  - component: {fileID: 4802976074416411617}
+  - component: {fileID: 7019044906082446600}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 26
+  m_Name: Agent Checkpoint D 10 (1)
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!4 &8384484451155719481
+--- !u!4 &7742393076034421070
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3966373046952462546}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49, y: 0.3, z: 0}
+  m_GameObject: {fileID: 4352818788000965668}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: -62, y: 0.3, z: 50}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6041268312698894808
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!65 &3378403067545366220
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3966373046952462546}
+  m_GameObject: {fileID: 4352818788000965668}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6514953887809054447
+--- !u!54 &4802976074416411617
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3966373046952462546}
+  m_GameObject: {fileID: 4352818788000965668}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -2810,13 +2731,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2741228336416092244
+--- !u!114 &7019044906082446600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3966373046952462546}
+  m_GameObject: {fileID: 4352818788000965668}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
@@ -2824,7 +2745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 5574883777831799322}
+  - collider: {fileID: 2910879070828230394}
     advantage: 1
   _next_nodes: 
 --- !u!1 &4764141507892332836
@@ -2840,11 +2761,11 @@ GameObject:
   - component: {fileID: 3853979235776902252}
   - component: {fileID: 2786029376154208421}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 31
+  m_Name: Agent Checkpoint D 26
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4091551502777419025
 Transform:
@@ -2858,7 +2779,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 30
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -30, z: 0}
 --- !u!65 &629663691266653821
 BoxCollider:
@@ -2871,7 +2792,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3853979235776902252
 Rigidbody:
@@ -2919,11 +2840,11 @@ GameObject:
   - component: {fileID: 6750894686749168419}
   - component: {fileID: 4177123621467355561}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 25
+  m_Name: Agent Checkpoint D 22
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2423956195436992295
 Transform:
@@ -2937,7 +2858,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 24
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &7989564841919259115
 BoxCollider:
@@ -2950,7 +2871,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6750894686749168419
 Rigidbody:
@@ -2982,7 +2903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 6041268312698894808}
+  - collider: {fileID: 5574883777831799322}
     advantage: 1
   _next_nodes: 
 --- !u!1 &4879768942901502871
@@ -2998,11 +2919,11 @@ GameObject:
   - component: {fileID: 7222329915661583877}
   - component: {fileID: 2947161891137732617}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 10
+  m_Name: Agent Checkpoint D 9
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4037359903000848684
 Transform:
@@ -3016,7 +2937,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &2910879070828230394
 BoxCollider:
@@ -3029,7 +2950,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7222329915661583877
 Rigidbody:
@@ -3064,164 +2985,6 @@ MonoBehaviour:
   - collider: {fileID: 3948982434961289609}
     advantage: 1
   _next_nodes: 
---- !u!1 &4994494983247883916
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6355931887943280238}
-  - component: {fileID: 8081959119071224469}
-  - component: {fileID: 1983337401514865214}
-  - component: {fileID: 658075089480516028}
-  m_Layer: 14
-  m_Name: Agent Checkpoint D 24
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6355931887943280238
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4994494983247883916}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 18, y: 0.3, z: -6}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &8081959119071224469
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4994494983247883916}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1983337401514865214
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4994494983247883916}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &658075089480516028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4994494983247883916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 7989564841919259115}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &5260830459531620258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7327280722907801078}
-  - component: {fileID: 7109705867345137588}
-  - component: {fileID: 1745620241136690389}
-  - component: {fileID: 9170260406417211473}
-  m_Layer: 14
-  m_Name: Agent Checkpoint D 8
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7327280722907801078
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5260830459531620258}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -56, y: 0.3, z: 26}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &7109705867345137588
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5260830459531620258}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1745620241136690389
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5260830459531620258}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &9170260406417211473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5260830459531620258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 6987321736053280420}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &6163132585924296499
 GameObject:
   m_ObjectHideFlags: 0
@@ -3235,11 +2998,11 @@ GameObject:
   - component: {fileID: 2627837197827954952}
   - component: {fileID: 710943354841317344}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 15
+  m_Name: Agent Checkpoint D 14
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4982843475771738345
 Transform:
@@ -3253,7 +3016,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!65 &1393642494910713124
 BoxCollider:
@@ -3266,7 +3029,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2627837197827954952
 Rigidbody:
@@ -3301,164 +3064,6 @@ MonoBehaviour:
   - collider: {fileID: 6553475820120799272}
     advantage: 1
   _next_nodes: 
---- !u!1 &6253230782949840472
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8107303811617193457}
-  - component: {fileID: 6987321736053280420}
-  - component: {fileID: 1665817432144079146}
-  - component: {fileID: 3000306805774120992}
-  m_Layer: 14
-  m_Name: Agent Checkpoint D 9
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8107303811617193457
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6253230782949840472}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62, y: 0.3, z: 45}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6987321736053280420
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6253230782949840472}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1665817432144079146
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6253230782949840472}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &3000306805774120992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6253230782949840472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 2910879070828230394}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &6358634168337868420
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6972745951784559025}
-  - component: {fileID: 2178436643693022269}
-  - component: {fileID: 6961889917481617880}
-  - component: {fileID: 5337974708341419910}
-  m_Layer: 14
-  m_Name: Agent Checkpoint D 2
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6972745951784559025
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358634168337868420}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 0.3, z: 64}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2178436643693022269
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358634168337868420}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &6961889917481617880
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358634168337868420}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5337974708341419910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6358634168337868420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 1363614801007871510}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &6461427795207829093
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,7 +3081,7 @@ GameObject:
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &285931992935852831
 Transform:
@@ -3490,7 +3095,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!65 &4172535342816697187
 BoxCollider:
@@ -3503,7 +3108,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8969492032640499733
 Rigidbody:
@@ -3535,7 +3140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 6171936753051017705}
+  - collider: {fileID: 3378403067545366220}
     advantage: 1
   _next_nodes: 
 --- !u!1 &6720918600397259385
@@ -3551,11 +3156,11 @@ GameObject:
   - component: {fileID: 7299995190264548212}
   - component: {fileID: 940318224959862631}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 21
+  m_Name: Agent Checkpoint D 20
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7826956703191831983
 Transform:
@@ -3569,7 +3174,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!65 &3464970566383008771
 BoxCollider:
@@ -3582,7 +3187,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7299995190264548212
 Rigidbody:
@@ -3614,7 +3219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 8693886325783808055}
+  - collider: {fileID: 698635692154693529}
     advantage: 1
   _next_nodes: 
 --- !u!1 &6876946972517122094
@@ -3630,11 +3235,11 @@ GameObject:
   - component: {fileID: 2831227588633463031}
   - component: {fileID: 5289507087792491123}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 27
+  m_Name: Agent Checkpoint D 23
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4961936506781623354
 Transform:
@@ -3648,7 +3253,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 26
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &5574883777831799322
 BoxCollider:
@@ -3661,7 +3266,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2831227588633463031
 Rigidbody:
@@ -3709,11 +3314,11 @@ GameObject:
   - component: {fileID: 1831534017081237957}
   - component: {fileID: 3926413613701027485}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 17
+  m_Name: Agent Checkpoint D 16
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1518785928208662390
 Transform:
@@ -3727,7 +3332,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &2840691229355396988
 BoxCollider:
@@ -3740,7 +3345,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1831534017081237957
 Rigidbody:
@@ -3792,7 +3397,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7087405820162874057
 Transform:
@@ -3888,7 +3493,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7087405820162874059
 Transform:
@@ -3966,11 +3571,11 @@ GameObject:
   - component: {fileID: 8432044420787436363}
   - component: {fileID: 4847437289132488793}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 16
+  m_Name: Agent Checkpoint D 15
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5523081715063059539
 Transform:
@@ -3984,7 +3589,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!65 &6553475820120799272
 BoxCollider:
@@ -3997,7 +3602,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8432044420787436363
 Rigidbody:
@@ -4045,11 +3650,11 @@ GameObject:
   - component: {fileID: 7698815979551671802}
   - component: {fileID: 7641886218724421069}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 30
+  m_Name: Agent Checkpoint D 25
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1388983187418100513
 Transform:
@@ -4063,7 +3668,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 29
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &1560510574624130103
 BoxCollider:
@@ -4076,7 +3681,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7698815979551671802
 Rigidbody:
@@ -4125,7 +3730,7 @@ GameObject:
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7665252652223898996
 Transform:
@@ -4139,14 +3744,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7665252652320616259}
-  - {fileID: 6972745951784559025}
   - {fileID: 6165325376208648542}
   - {fileID: 8281044510347164951}
   - {fileID: 269221017221567547}
   - {fileID: 285931992935852831}
-  - {fileID: 4710258815993545505}
-  - {fileID: 7327280722907801078}
-  - {fileID: 8107303811617193457}
+  - {fileID: 1807642894405804820}
+  - {fileID: 7742393076034421070}
   - {fileID: 4037359903000848684}
   - {fileID: 8497786326226557674}
   - {fileID: 5560291143275026864}
@@ -4159,14 +3762,10 @@ Transform:
   - {fileID: 3627572499947357832}
   - {fileID: 1503324046448538418}
   - {fileID: 7826956703191831983}
-  - {fileID: 4824764030303668117}
   - {fileID: 101869846402997311}
-  - {fileID: 6355931887943280238}
   - {fileID: 2423956195436992295}
-  - {fileID: 8384484451155719481}
   - {fileID: 4961936506781623354}
   - {fileID: 2335059943764552559}
-  - {fileID: 6970940388387357120}
   - {fileID: 1388983187418100513}
   - {fileID: 4091551502777419025}
   - {fileID: 2270306799212540021}
@@ -4186,13 +3785,12 @@ GameObject:
   - component: {fileID: 7665252652320616262}
   - component: {fileID: 7665252652320616263}
   - component: {fileID: 8254470492748134061}
-  - component: {fileID: 8405268653899528048}
   m_Layer: 14
   m_Name: Agent Checkpoint D 1
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7665252652320616259
 Transform:
@@ -4219,7 +3817,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7665252652320616263
 Rigidbody:
@@ -4251,23 +3849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 2178436643693022269}
+  - collider: {fileID: 1363614801007871510}
     advantage: 1
-  _next_nodes: 
---- !u!114 &8405268653899528048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7665252652320616280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints: []
   _next_nodes: 
 --- !u!1 &7665252652615350201
 GameObject:
@@ -4283,7 +3866,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7665252652615350200
 Transform:
@@ -4343,7 +3926,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7665252653035744362
 Transform:
@@ -4376,40 +3959,7 @@ MonoBehaviour:
   RayColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   ColliderColor: {r: 1, g: 0, b: 0, a: 1}
   RayLength: 3
-  Colliders:
-  - {fileID: 7665252652320616262}
-  - {fileID: 2178436643693022269}
-  - {fileID: 1363614801007871510}
-  - {fileID: 4810622221988652856}
-  - {fileID: 4197878632791197431}
-  - {fileID: 4172535342816697187}
-  - {fileID: 6171936753051017705}
-  - {fileID: 7109705867345137588}
-  - {fileID: 6987321736053280420}
-  - {fileID: 2910879070828230394}
-  - {fileID: 3948982434961289609}
-  - {fileID: 2439769807014850287}
-  - {fileID: 328810275748325981}
-  - {fileID: 1365020169069303829}
-  - {fileID: 1393642494910713124}
-  - {fileID: 6553475820120799272}
-  - {fileID: 2840691229355396988}
-  - {fileID: 2536265359447802598}
-  - {fileID: 7556286593001087951}
-  - {fileID: 1685165290523083343}
-  - {fileID: 3464970566383008771}
-  - {fileID: 8693886325783808055}
-  - {fileID: 698635692154693529}
-  - {fileID: 8081959119071224469}
-  - {fileID: 7989564841919259115}
-  - {fileID: 6041268312698894808}
-  - {fileID: 5574883777831799322}
-  - {fileID: 409407068935791847}
-  - {fileID: 108756304076940423}
-  - {fileID: 1560510574624130103}
-  - {fileID: 629663691266653821}
-  - {fileID: 929600414355439611}
-  - {fileID: 4956412136904489339}
+  Colliders: []
   ColliderNameTemplate: Agent Checkpoint D
 --- !u!1 &7669052282324022026
 GameObject:
@@ -4424,12 +3974,12 @@ GameObject:
   - component: {fileID: 8795795632484698936}
   - component: {fileID: 3016263954160391819}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 20
+  m_Name: Agent Checkpoint D 19
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!4 &1503324046448538418
 Transform:
   m_ObjectHideFlags: 0
@@ -4442,7 +3992,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1685165290523083343
 BoxCollider:
@@ -4455,7 +4005,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8795795632484698936
 Rigidbody:
@@ -4503,12 +4053,12 @@ GameObject:
   - component: {fileID: 6030324976251599816}
   - component: {fileID: 5984946771891053646}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 19
+  m_Name: Agent Checkpoint D 18
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!4 &3627572499947357832
 Transform:
   m_ObjectHideFlags: 0
@@ -4521,7 +4071,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &7556286593001087951
 BoxCollider:
@@ -4534,7 +4084,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6030324976251599816
 Rigidbody:
@@ -4586,7 +4136,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7708512809330342169
 Transform:
@@ -4682,7 +4232,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7708512809330342171
 Transform:
@@ -4764,7 +4314,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7708512810728236520
 Transform:
@@ -4860,7 +4410,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7708512810728236522
 Transform:
@@ -4942,7 +4492,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7708512811325697444
 Transform:
@@ -5038,7 +4588,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7708512811325697446
 Transform:
@@ -5120,7 +4670,7 @@ GameObject:
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6165325376208648542
 Transform:
@@ -5134,7 +4684,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
 --- !u!65 &1363614801007871510
 BoxCollider:
@@ -5147,7 +4697,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3529902030068310484
 Rigidbody:
@@ -5179,7 +4729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextCollider: 
   next_checkpoints:
-  - collider: {fileID: 4810622221988652856}
+  - collider: {fileID: 4197878632791197431}
     advantage: 1
   _next_nodes: 
 --- !u!1 &7895921239198421241
@@ -5199,8 +4749,8 @@ GameObject:
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!4 &8281044510347164951
 Transform:
   m_ObjectHideFlags: 0
@@ -5213,7 +4763,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &4810622221988652856
 BoxCollider:
@@ -5226,7 +4776,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &680892219217284812
 Rigidbody:
@@ -5261,85 +4811,6 @@ MonoBehaviour:
   - collider: {fileID: 4197878632791197431}
     advantage: 1
   _next_nodes: 
---- !u!1 &8582743695486063257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4824764030303668117}
-  - component: {fileID: 8693886325783808055}
-  - component: {fileID: 3975165564017353142}
-  - component: {fileID: 3460063762136284032}
-  m_Layer: 14
-  m_Name: Agent Checkpoint D 22
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4824764030303668117
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582743695486063257}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -16, y: 0.3, z: -6}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &8693886325783808055
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582743695486063257}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &3975165564017353142
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582743695486063257}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &3460063762136284032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582743695486063257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 698635692154693529}
-    advantage: 1
-  _next_nodes: 
 --- !u!1 &8935349800907474576
 GameObject:
   m_ObjectHideFlags: 0
@@ -5353,11 +4824,11 @@ GameObject:
   - component: {fileID: 8186327043687766601}
   - component: {fileID: 7418833647171575221}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 13
+  m_Name: Agent Checkpoint D 12
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7502615121001481819
 Transform:
@@ -5371,7 +4842,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!65 &328810275748325981
 BoxCollider:
@@ -5384,7 +4855,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8186327043687766601
 Rigidbody:
@@ -5432,11 +4903,11 @@ GameObject:
   - component: {fileID: 5519453681110959109}
   - component: {fileID: 3889655168618241345}
   m_Layer: 14
-  m_Name: Agent Checkpoint D 14
+  m_Name: Agent Checkpoint D 13
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5191396906158760753
 Transform:
@@ -5450,7 +4921,7 @@ Transform:
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 7665252652223898996}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!65 &1365020169069303829
 BoxCollider:
@@ -5463,7 +4934,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 6, z: 1}
+  m_Size: {x: 1.2, y: 6, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5519453681110959109
 Rigidbody:
@@ -5514,7 +4985,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786244999666
 Transform:
@@ -5596,7 +5067,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786244999670
 Transform:
@@ -5692,7 +5163,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786281367337
 Transform:
@@ -5774,7 +5245,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786281367341
 Transform:
@@ -5870,7 +5341,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786342321042
 Transform:
@@ -5952,7 +5423,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786342321046
 Transform:
@@ -6048,7 +5519,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786610599899
 Transform:
@@ -6130,7 +5601,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786610599903
 Transform:
@@ -6227,7 +5698,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786745611562
 Transform:
@@ -6323,7 +5794,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385786745611566
 Transform:
@@ -6405,7 +5876,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787107005009
 Transform:
@@ -6501,7 +5972,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787107005013
 Transform:
@@ -6583,7 +6054,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787213854034
 Transform:
@@ -6679,7 +6150,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787213854038
 Transform:
@@ -6760,7 +6231,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787252048322
 Transform:
@@ -6842,7 +6313,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787252048326
 Transform:
@@ -6938,7 +6409,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787431269506
 Transform:
@@ -7020,7 +6491,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787431269510
 Transform:
@@ -7116,7 +6587,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787500542057
 Transform:
@@ -7198,7 +6669,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787500542061
 Transform:
@@ -7294,7 +6765,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787591231650
 Transform:
@@ -7376,7 +6847,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787591231654
 Transform:
@@ -7472,7 +6943,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787602423856
 Transform:
@@ -7554,7 +7025,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787602423860
 Transform:
@@ -7650,7 +7121,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787734962864
 Transform:
@@ -7732,7 +7203,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787734962868
 Transform:
@@ -7741,14 +7212,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9190385787734732436}
-  m_LocalRotation: {x: -0, y: 0.7071058, z: -0, w: 0.7071078}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -58, y: 0, z: -43}
   m_LocalScale: {x: 1, y: 1, z: 2.5}
   m_Children:
   - {fileID: 9190385787734962864}
   m_Father: {fileID: 7665252652615350200}
   m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &9190385787731571348
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7828,7 +7299,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787956170240
 Transform:
@@ -7910,7 +7381,7 @@ GameObject:
   m_TagString: Track
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9190385787956170244
 Transform:
@@ -7919,14 +7390,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9190385787956007460}
-  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 4, y: 0, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 2.5}
   m_Children:
   - {fileID: 9190385787956170240}
   m_Father: {fileID: 7665252652615350200}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &9190385787954875940
 MeshFilter:
   m_ObjectHideFlags: 0
