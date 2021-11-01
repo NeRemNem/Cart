@@ -7,7 +7,7 @@ using UnityEngine;
 public class CheckPointPerceptionSensor : MonoBehaviour
 {
     public List<CheckpointSensor> checkpoint_sensor;
-    public LayerMask mask;
+    public string mask_name;
     private List<float> _sensor_obs_list = new List<float>();
     private int _mask_value;
     private Course _course;
@@ -17,12 +17,12 @@ public class CheckPointPerceptionSensor : MonoBehaviour
             _sensor_obs_list = new List<float>();
         if (checkpoint_sensor == null)
             checkpoint_sensor = new List<CheckpointSensor>();
-        _mask_value = 1 << mask;
+        _mask_value = 1<<LayerMask.NameToLayer(mask_name);
         for (int i = 0; i < transform.childCount; i++)
         {
             var sensor = new CheckpointSensor();
             sensor.Transform = transform.GetChild(i);
-            sensor.RayDistance = 30f;
+            sensor.RayDistance = 20f;
             checkpoint_sensor.Add(sensor);
         }
     }
@@ -87,23 +87,23 @@ public class CheckPointPerceptionSensor : MonoBehaviour
 
         return false;
     }
-    // public void OnDrawGizmosSelected()
-    // {
-    //     
-    //     for (int i = 0; i < checkpoint_sensor.Count; i++)
-    //     {
-    //         if (Physics.Raycast(transform.position, checkpoint_sensor[i].Transform.forward
-    //             , out var hit, checkpoint_sensor[i].RayDistance, _mask_value))
-    //         {
-    //             Debug.DrawRay(checkpoint_sensor[i].Transform.position,
-    //                 checkpoint_sensor[i].Transform.forward * hit.distance, Color.green);
-    //         }
-    //         else
-    //         {
-    //             Debug.DrawRay(checkpoint_sensor[i].Transform.position, checkpoint_sensor[i].Transform.forward
-    //                                                                    * checkpoint_sensor[i].RayDistance, Color.cyan);
-    //         }
-    //     }
-    // }
+    public void OnDrawGizmosSelected()
+    {
+        
+        for (int i = 0; i < checkpoint_sensor.Count; i++)
+        {
+            if (Physics.Raycast(transform.position, checkpoint_sensor[i].Transform.forward
+                , out var hit, checkpoint_sensor[i].RayDistance, _mask_value))
+            {
+                Debug.DrawRay(checkpoint_sensor[i].Transform.position,
+                    checkpoint_sensor[i].Transform.forward * hit.distance, Color.green);
+            }
+            else
+            {
+                Debug.DrawRay(checkpoint_sensor[i].Transform.position, checkpoint_sensor[i].Transform.forward
+                                                                       * checkpoint_sensor[i].RayDistance, Color.cyan);
+            }
+        }
+    }
 
 }

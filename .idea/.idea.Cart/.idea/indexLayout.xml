@@ -29,12 +29,9 @@
       <Path>.git</Path>
       <Path>.idea</Path>
       <Path>Build</Path>
-      <Path>Build2</Path>
       <Path>Data</Path>
-      <Path>EnvPPO</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>New_Build</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>

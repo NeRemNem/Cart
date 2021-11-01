@@ -7,7 +7,7 @@ using UnityEngine;
 public class DeadPerceptionSensor : MonoBehaviour
 {
     public List<DeadSensor> dead_sensors;
-    public LayerMask mask;
+    public string mask_name;
     private List<float> _sensor_obs_list = new List<float>();
     private int _mask_value;
     public float[] hit_vaildations;
@@ -25,7 +25,7 @@ public class DeadPerceptionSensor : MonoBehaviour
             _sensor_obs_list = new List<float>();
         if (dead_sensors == null)
             dead_sensors = new List<DeadSensor>();
-        _mask_value = 1 << mask;
+        _mask_value = 1<<LayerMask.NameToLayer(mask_name);
         for (int i = 0; i < transform.childCount; i++)
         {
             var sensor = new DeadSensor();
@@ -80,21 +80,21 @@ public class DeadPerceptionSensor : MonoBehaviour
         return hit ? (1.0f, hitInfo.distance / sensor.RayDistance) : (0f, 1f);
         
     }
-    // public void OnDrawGizmosSelected()
-    // {
-    //     Gizmos.color = Color.magenta;
-    //     for (int i = 0; i < dead_sensors.Count; i++)
-    //     {
-    //         Gizmos.DrawRay(this.transform.position
-    //             , dead_sensors[i].Transform.forward * dead_sensors[i].HitValidationDistance);
-    //         if (Physics.Raycast(dead_sensors[i].Transform.position, dead_sensors[i].Transform.forward
-    //             , dead_sensors[i].HitValidationDistance, _mask_value))
-    //         {
-    //             Debug.Log(i);
-    //         }
-    //     }
-    //
-    // }
+    public void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.magenta;
+        for (int i = 0; i < dead_sensors.Count; i++)
+        {
+            Gizmos.DrawRay(this.transform.position
+                , dead_sensors[i].Transform.forward * dead_sensors[i].HitValidationDistance);
+            if (Physics.Raycast(dead_sensors[i].Transform.position, dead_sensors[i].Transform.forward
+                , dead_sensors[i].HitValidationDistance, _mask_value))
+            {
+                Debug.Log(i);
+            }
+        }
+    
+    }
 }
 
    
