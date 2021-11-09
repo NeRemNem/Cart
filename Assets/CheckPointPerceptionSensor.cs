@@ -11,6 +11,7 @@ public class CheckPointPerceptionSensor : MonoBehaviour
     private List<float> _sensor_obs_list = new List<float>();
     private int _mask_value;
     private Course _course;
+    public bool draw_gizmo;
     private void Awake()
     {
         if (_sensor_obs_list == null)
@@ -44,6 +45,7 @@ public class CheckPointPerceptionSensor : MonoBehaviour
         return _sensor_obs_list;
 
     }
+
     private void PrepCheckpointObservation(int cur_checkpointID)
     {
         _sensor_obs_list.Clear();
@@ -59,7 +61,11 @@ public class CheckPointPerceptionSensor : MonoBehaviour
     private (float, float, float) ShotRay(CheckpointSensor sensor, int cur_checkpointID)
     {
         var xform = sensor.Transform;
-        var hit = Physics.Raycast(xform.position, xform.forward, out var hitInfo
+        var position = xform.position;
+        position = new Vector3(position.x, 2.0f, position.z);
+        xform.position = position;
+
+        var hit = Physics.Raycast(position, xform.forward, out var hitInfo
             , sensor.RayDistance, _mask_value);
         if (hit)
         {
@@ -89,19 +95,30 @@ public class CheckPointPerceptionSensor : MonoBehaviour
     }
     public void OnDrawGizmosSelected()
     {
-        
-        for (int i = 0; i < checkpoint_sensor.Count; i++)
+        if (draw_gizmo)
         {
-            if (Physics.Raycast(transform.position, checkpoint_sensor[i].Transform.forward
-                , out var hit, checkpoint_sensor[i].RayDistance, _mask_value))
+            for (int i = 0; i < checkpoint_sensor.Count; i++)
             {
-                Debug.DrawRay(checkpoint_sensor[i].Transform.position,
-                    checkpoint_sensor[i].Transform.forward * hit.distance, Color.green);
-            }
-            else
-            {
-                Debug.DrawRay(checkpoint_sensor[i].Transform.position, checkpoint_sensor[i].Transform.forward
-                                                                       * checkpoint_sensor[i].RayDistance, Color.cyan);
+                var xform = checkpoint_sensor[i].Transform;
+
+                var position = xform.position;
+                position = new Vector3(position.x, 2.0f, position.z);
+                var y = xform.rotation.eulerAngles.y;
+                var rotation = new Vector3(0f, y, 0f);
+                xform.position = position;
+                xform.rotation = Quaternion.Euler(rotation); 
+                if (Physics.Raycast(xform.position, xform.forward
+                    , out var hit, checkpoint_sensor[i].RayDistance, _mask_value))
+                {
+                    Debug.DrawRay(xform.position,
+                        xform.forward * hit.distance, Color.blue);
+                }
+                else
+                {
+                    Debug.DrawRay(checkpoint_sensor[i].Transform.position, checkpoint_sensor[i].Transform.forward
+                                                                           * checkpoint_sensor[i].RayDistance,
+                        Color.cyan);
+                }
             }
         }
     }

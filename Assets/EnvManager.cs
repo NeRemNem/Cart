@@ -15,7 +15,8 @@ public class EnvManager : MonoBehaviour
             course_id = courses.Length - 1;
         foreach (var course in courses)
         {
-            course.BuildMap();
+            if(course.gameObject.activeInHierarchy == true)
+                course.BuildMap();
         }
         foreach (var agent in agents)
         {

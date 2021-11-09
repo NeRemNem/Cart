@@ -11,6 +11,7 @@ public class DeadPerceptionSensor : MonoBehaviour
     private List<float> _sensor_obs_list = new List<float>();
     private int _mask_value;
     public float[] hit_vaildations;
+    public bool draw_gizmo;
     [System.Serializable]
     public struct DeadSensor
     {
@@ -75,25 +76,42 @@ public class DeadPerceptionSensor : MonoBehaviour
     private (float,float) ShotRay(DeadSensor sensor)
     {
         var xform = sensor.Transform;
-        var hit = Physics.Raycast(xform.position, xform.forward, out var hitInfo
+        var position = xform.position;
+        position = new Vector3(position.x, 1.0f, position.z);
+        var y = xform.rotation.eulerAngles.y;
+        var rotation = new Vector3(0f, y, 0f);
+        xform.position = position;
+        xform.rotation = Quaternion.Euler(rotation); 
+        var hit = Physics.Raycast(position, xform.forward, out var hitInfo
             , sensor.RayDistance, _mask_value);
         return hit ? (1.0f, hitInfo.distance / sensor.RayDistance) : (0f, 1f);
         
     }
     public void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.magenta;
-        for (int i = 0; i < dead_sensors.Count; i++)
+        if (draw_gizmo)
         {
-            Gizmos.DrawRay(this.transform.position
-                , dead_sensors[i].Transform.forward * dead_sensors[i].HitValidationDistance);
-            if (Physics.Raycast(dead_sensors[i].Transform.position, dead_sensors[i].Transform.forward
-                , dead_sensors[i].HitValidationDistance, _mask_value))
+            Gizmos.color = Color.magenta;
+            for (int i = 0; i < dead_sensors.Count; i++)
             {
-                Debug.Log(i);
+                var xform = dead_sensors[i].Transform;
+                var position = xform.position;
+                position = new Vector3(position.x, 1.0f, position.z);
+                var y = xform.rotation.eulerAngles.y;
+                var rotation = new Vector3(0f, y, 0f);
+                xform.position = position;
+                xform.rotation = Quaternion.Euler(rotation); 
+                xform.position = new Vector3(xform.position.x, 1.0f, xform.position.z);
+                Gizmos.DrawRay(xform.position
+                    , xform.forward * dead_sensors[i].HitValidationDistance);
+                if (Physics.Raycast(xform.position, dead_sensors[i].Transform.forward
+                    , dead_sensors[i].HitValidationDistance, _mask_value))
+                {
+                    Debug.Log(i);
+                }
             }
         }
-    
+
     }
 }
 

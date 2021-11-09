@@ -21,6 +21,7 @@ public class CartAgent : Agent, IInput
     public Course course;
     public DeadPerceptionSensor dead_sensor;
     public CheckPointPerceptionSensor checkpoint_sensor;
+    public TrackPerceptionSensor track_sensor;
 
     public LayerMask CheckpointMask;
     public float timer = 0f;
@@ -31,8 +32,8 @@ public class CartAgent : Agent, IInput
 
     void Awake()
     {
-        m_Kart = GetComponent<ArcadeKart>();
         tr_record = GetComponent<TrajectoryRecorder>();
+        m_Kart = GetComponent<ArcadeKart>();
     }
 
     public void Init(Course course, int id, Collider collider)
@@ -41,7 +42,7 @@ public class CartAgent : Agent, IInput
         dead_sensor.Init();
         checkpoint_sensor.Init(course);
         _cur_checkpointID = id;
-        transform.localRotation = collider.transform.rotation;
+        transform.rotation = collider.transform.rotation;
         transform.position = collider.transform.position;
     }
 
@@ -69,8 +70,8 @@ public class CartAgent : Agent, IInput
 
     public override void CollectObservations(VectorSensor sensor)
     {
-       
         sensor.AddObservation(checkpoint_sensor.GetObservation(_cur_checkpointID));
+        sensor.AddObservation(track_sensor.GetObservation());
         sensor.AddObservation(dead_sensor.GetObservation());
         sensor.AddObservation(m_Kart.LocalSpeed());
         sensor.AddObservation(m_Acceleration);

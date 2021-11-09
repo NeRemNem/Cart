@@ -93,18 +93,8 @@ public class TrajectoryRecorder : MonoBehaviour
 
                 if (record_count >= 5)
                 {
-                    _is_saved = true;
-                    // json = JsonUtility.ToJson(_lap_time_data, true);
-                    // path = save_path + "/" +name+"_"+_model_name+"Lap_Time"+"_"+i+".json";
-                    // while (File.Exists(path))
-                    // {
-                    //     ++i;
-                    //     if(_model_name == "")
-                    //         path = save_path + "/" +name+"_"+i+".json";
-                    //     else
-                    //         path = save_path + "/" +name+"_"+_model_name+"_"+i+".json";
-                    // }
-                    // File.WriteAllText(path, json);
+                    _is_saved = true;   
+
                 }
 #endif
                 _data = new Data();

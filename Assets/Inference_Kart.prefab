@@ -4686,54 +4686,16 @@ MonoBehaviour:
   MaxStep: 5000
   _is_recording: 0
   course: {fileID: 0}
-  DeadSensors:
-  - Transform: {fileID: 3115628758188172299}
-    HitValidationDistance: 0.9
-    RayDistance: 10
-  - Transform: {fileID: 2108194427732374429}
-    HitValidationDistance: 1
-    RayDistance: 10
-  - Transform: {fileID: 7755608219812159640}
-    HitValidationDistance: 0.9
-    RayDistance: 10
-  - Transform: {fileID: 3115628758417245377}
-    HitValidationDistance: 1
-    RayDistance: 10
-  - Transform: {fileID: 2263984379185222451}
-    HitValidationDistance: 1.2
-    RayDistance: 10
-  - Transform: {fileID: 1081723808809878711}
-    HitValidationDistance: 1
-    RayDistance: 10
-  CheckpointSensors:
-  - Transform: {fileID: 3174758945984210872}
-    RayDistance: 30
-  - Transform: {fileID: 1123983485964598322}
-    RayDistance: 30
-  - Transform: {fileID: 5065583873805364172}
-    RayDistance: 30
-  - Transform: {fileID: 4601961444045079802}
-    RayDistance: 30
-  - Transform: {fileID: 2602300495185107869}
-    RayDistance: 30
-  - Transform: {fileID: 7513146815383891405}
-    RayDistance: 30
-  - Transform: {fileID: 461156773804964471}
-    RayDistance: 30
-  - Transform: {fileID: 184062951958128283}
-    RayDistance: 30
-  - Transform: {fileID: 2654112966450676714}
-    RayDistance: 30
-  - Transform: {fileID: 3700805384028592906}
-    RayDistance: 30
-  - Transform: {fileID: 875600967402982474}
-    RayDistance: 30
-  CheckpointSensorsTransform: {fileID: 3485618437659252611}
-  DeadSensorsTransform: {fileID: 3115628757666127668}
+  dead_sensor: {fileID: 0}
+  checkpoint_sensor: {fileID: 0}
   CheckpointMask:
     serializedVersion: 2
     m_Bits: 16384
   timer: 0
+  Goal:
+    m_PersistentCalls:
+      m_Calls: []
+  tr_record: {fileID: 0}
 --- !u!114 &2711599315344676918
 MonoBehaviour:
   m_ObjectHideFlags: 0
