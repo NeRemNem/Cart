@@ -7,11 +7,12 @@ public class CheckPoint : MonoBehaviour
 {
     private Collider _collider;
     public string NextCollider;
+    public string test;
+    public bool advantage;
     [System.Serializable]
     public struct NextCheckpoint
     {
         public Collider collider;
-        public int advantage;
     }
     public NextCheckpoint[] next_checkpoints;
     [SerializeField]
@@ -20,6 +21,7 @@ public class CheckPoint : MonoBehaviour
     {
         _collider = GetComponent<BoxCollider>();
         SetNextNodes();
+        test = gameObject.transform.position.ToString();
     }
 
     private void SetNextNodes()

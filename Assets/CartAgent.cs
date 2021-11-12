@@ -61,15 +61,15 @@ public class CartAgent : Agent, IInput
 #endif
             AddReward(-0.1f);
         }
-        
         AddReward(-4.1f / MaxStep);
-        AddReward(m_Kart.LocalSpeed() / (MaxStep));
+        AddReward( (Mathf.Max(0f,m_Kart.LocalSpeed()))/ MaxStep);
     }
 
    
 
     public override void CollectObservations(VectorSensor sensor)
     {
+        sensor.AddObservation(CalcurateVector());
         sensor.AddObservation(checkpoint_sensor.GetObservation(_cur_checkpointID));
         sensor.AddObservation(track_sensor.GetObservation());
         sensor.AddObservation(dead_sensor.GetObservation());
@@ -103,7 +103,10 @@ public class CartAgent : Agent, IInput
             //체크포인트
             else
             {
-                AddReward(2f / course.map.Count);
+                if(course.IsShortCut(other.GetInstanceID()))
+                    AddReward((4f / course.map.Count));
+                else                
+                    AddReward((2f / course.map.Count));
                 checkpoint_count++;
                
             }
@@ -142,6 +145,25 @@ public class CartAgent : Agent, IInput
         m_Steering = 0f;
     }
 
+    private List<float> CalcurateVector()
+    {
+        List<float> dot_obs = new List<float>();
+        int count = 0;
+        foreach (var i in course.pos_map[_cur_checkpointID])
+        {            
+            var vector = new Vector3(i.x, 0f, i.z);
+            var cart_position = new Vector3(this.transform.position.x, 0f, this.transform.position.z);
+            count += 1;
+            var toward = vector - cart_position;
+            var item = Vector3.Dot(this.gameObject.transform.forward.normalized, toward.normalized);
+            dot_obs.Add(item);
+        }
+        while(dot_obs.Count != 3)
+            dot_obs.Add(-1f);
+        
+        return dot_obs;
+
+    }
 
     #region InputThings
 

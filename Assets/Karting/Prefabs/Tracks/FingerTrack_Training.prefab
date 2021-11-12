@@ -75,9 +75,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1990958980801489252}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &43242263
 GameObject:
@@ -154,9 +155,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 111272179}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &62640596
 GameObject:
@@ -171,7 +173,7 @@ GameObject:
   - component: {fileID: 62640599}
   - component: {fileID: 62640598}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 23
+  m_Name: Agnet Checkpoint E 22
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62640596}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63, y: 0.3, z: -90}
+  m_LocalPosition: {x: 62, y: 0.3, z: -90}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
@@ -233,9 +235,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 3907289344068545537}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &111272178
 GameObject:
@@ -312,9 +315,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 8743079894831487618}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &187813214
 GameObject:
@@ -329,7 +333,7 @@ GameObject:
   - component: {fileID: 187813217}
   - component: {fileID: 187813216}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 17
+  m_Name: Agnet Checkpoint E 16
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -343,7 +347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187813214}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 52.299995, y: 0.3, z: -100}
+  m_LocalPosition: {x: 51, y: 0.3, z: -100}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
@@ -391,9 +395,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 1
   next_checkpoints:
   - collider: {fileID: 62640600}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &410883551
 GameObject:
@@ -438,7 +443,7 @@ Transform:
   - {fileID: 1214598831}
   - {fileID: 8775154076961273355}
   - {fileID: 187813215}
-  - {fileID: 6923763592367423839}
+  - {fileID: 3336824380249562426}
   - {fileID: 8725253365524569760}
   - {fileID: 6261601442991318584}
   - {fileID: 5446085667311879425}
@@ -463,7 +468,7 @@ GameObject:
   - component: {fileID: 1214598833}
   - component: {fileID: 1214598832}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 15
+  m_Name: Agnet Checkpoint E 14
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,9 +530,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 6700606613818430938}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &1222946818
 GameObject:
@@ -604,9 +610,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1314780219}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &1314780215
 GameObject:
@@ -683,9 +690,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1770359195}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &1481442988
 GameObject:
@@ -700,7 +708,7 @@ GameObject:
   - component: {fileID: 1481442991}
   - component: {fileID: 1481442990}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 26
+  m_Name: Agnet Checkpoint E 25
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -762,9 +770,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 15830991}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &1770359191
 GameObject:
@@ -841,11 +850,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
-  - collider: {fileID: 1313418793007761173}
-    advantage: 1
   - collider: {fileID: 7218916395761515428}
-    advantage: 1
+  - collider: {fileID: 1313418793007761173}
   _next_nodes: 
 --- !u!1 &1794842461
 GameObject:
@@ -860,7 +869,7 @@ GameObject:
   - component: {fileID: 1794842464}
   - component: {fileID: 1794842463}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 25
+  m_Name: Agnet Checkpoint E 24
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -922,9 +931,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1481442992}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &2006823900
 GameObject:
@@ -1001,9 +1011,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 3964279463126439372}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &40214410195513154
 GameObject:
@@ -1292,7 +1303,7 @@ GameObject:
   - component: {fileID: 2585393167191105683}
   - component: {fileID: 1386515776628198694}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 21
+  m_Name: Agnet Checkpoint E 20
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1306,7 +1317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671975986941716790}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 60, y: 0.3, z: -150}
+  m_LocalPosition: {x: 62, y: 0.3, z: -150}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
@@ -1354,9 +1365,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 7863475014513710800}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &742271543264428409
 GameObject:
@@ -1367,13 +1379,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 742271543264428408}
-  - component: {fileID: 742271542927781003}
   m_Layer: 0
   m_Name: FingerTrack_Training
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &742271543264428408
 Transform:
@@ -1391,47 +1402,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &742271542927781003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742271543264428409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd2847d56dfe89e41a817d899dfcc94b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RayColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  ColliderColor: {r: 1, g: 0, b: 0, a: 1}
-  RayLength: 3
-  Colliders:
-  - {fileID: 15830991}
-  - {fileID: 1990958980801489252}
-  - {fileID: 1222946822}
-  - {fileID: 1314780219}
-  - {fileID: 1770359195}
-  - {fileID: 1313418793007761173}
-  - {fileID: 2006823904}
-  - {fileID: 3964279463126439372}
-  - {fileID: 43242267}
-  - {fileID: 111272179}
-  - {fileID: 8743079894831487618}
-  - {fileID: 1828362284091400262}
-  - {fileID: 1214598834}
-  - {fileID: 6700606613818430938}
-  - {fileID: 187813218}
-  - {fileID: 6960749327948518957}
-  - {fileID: 4847666691486511575}
-  - {fileID: 4167344461976208197}
-  - {fileID: 4831507020044418567}
-  - {fileID: 7863475014513710800}
-  - {fileID: 62640600}
-  - {fileID: 3907289344068545537}
-  - {fileID: 1794842465}
-  - {fileID: 1481442992}
-  ColliderNameTemplate: Agnet Checkpoint E
 --- !u!1 &742271543356887032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3366,9 +3336,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1222946822}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &1719322161759434010
 GameObject:
@@ -3445,9 +3416,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1828362284091400262}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &2076508155071924570
 GameObject:
@@ -3640,7 +3612,7 @@ GameObject:
   - component: {fileID: 3804308483713445071}
   - component: {fileID: 1941061973782644308}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 19
+  m_Name: Agnet Checkpoint E 18
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3654,7 +3626,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2170696383975120851}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 40, y: 0.3, z: -130}
+  m_LocalPosition: {x: 42, y: 0.3, z: -130}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
@@ -3702,9 +3674,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 4167344461976208197}
-    advantage: 1
+  _next_nodes: 
+--- !u!1 &2220405878519681599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3336824380249562426}
+  - component: {fileID: 3122489811606616975}
+  - component: {fileID: 8917314101183934754}
+  - component: {fileID: 6236798193591459188}
+  m_Layer: 14
+  m_Name: Agnet Checkpoint E 17
+  m_TagString: Checkpoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3336824380249562426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2220405878519681599}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 42, y: 0.3, z: -109}
+  m_LocalScale: {x: 9, y: 3, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 410883552}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &3122489811606616975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2220405878519681599}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 6, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8917314101183934754
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2220405878519681599}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6236798193591459188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2220405878519681599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextCollider: 
+  test: 
+  advantage: 0
+  next_checkpoints:
+  - collider: {fileID: 4847666691486511575}
   _next_nodes: 
 --- !u!1 &2280978152914396498
 GameObject:
@@ -6389,7 +6442,7 @@ GameObject:
   - component: {fileID: 118342588824414564}
   - component: {fileID: 1609834150439991732}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 16
+  m_Name: Agnet Checkpoint E 15
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6451,90 +6504,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 187813218}
-    advantage: 1
-  - collider: {fileID: 6960749327948518957}
-    advantage: 1
-  _next_nodes: 
---- !u!1 &2940827213857337420
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6923763592367423839}
-  - component: {fileID: 6960749327948518957}
-  - component: {fileID: 548444040921125478}
-  - component: {fileID: 2456981403986739585}
-  m_Layer: 14
-  m_Name: Agnet Checkpoint E 18
-  m_TagString: Checkpoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &6923763592367423839
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2940827213857337420}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 43.2, y: 0.3, z: -109}
-  m_LocalScale: {x: 9, y: 3, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 410883552}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &6960749327948518957
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2940827213857337420}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.2, y: 6, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &548444040921125478
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2940827213857337420}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2456981403986739585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2940827213857337420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40269c6586071664bac08c663f941777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextCollider: 
-  next_checkpoints:
-  - collider: {fileID: 4847666691486511575}
-    advantage: 1
+  - collider: {fileID: 3122489811606616975}
   _next_nodes: 
 --- !u!1 &3253941378190457912
 GameObject:
@@ -7083,7 +7057,7 @@ GameObject:
   - component: {fileID: 6086530691345733285}
   - component: {fileID: 90051164465571532}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 24
+  m_Name: Agnet Checkpoint E 23
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7145,9 +7119,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1794842465}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &4358863471795464515
 GameObject:
@@ -7696,7 +7671,7 @@ GameObject:
   - component: {fileID: 1386013673726172078}
   - component: {fileID: 6233635389232132453}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 20
+  m_Name: Agnet Checkpoint E 19
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7710,7 +7685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5910332021611405811}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 40, y: 0.3, z: -150}
+  m_LocalPosition: {x: 42, y: 0.3, z: -150}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
@@ -7758,9 +7733,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 4831507020044418567}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &5958647629651592658
 GameObject:
@@ -7837,9 +7813,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 43242267}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &5975538334542781217
 GameObject:
@@ -8642,9 +8619,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 2006823904}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &6381903136767893953
 GameObject:
@@ -8659,7 +8637,7 @@ GameObject:
   - component: {fileID: 524123966374435134}
   - component: {fileID: 1921451470362874173}
   m_Layer: 14
-  m_Name: Agnet Checkpoint E 22
+  m_Name: Agnet Checkpoint E 21
   m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8673,7 +8651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6381903136767893953}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.200005, y: 0.3, z: -109}
+  m_LocalPosition: {x: 62, y: 0.3, z: -109}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
@@ -8721,9 +8699,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 62640600}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &6577415586867469768
 GameObject:
@@ -8930,7 +8909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6723662030612989991}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -28, y: 0.3, z: -100}
+  m_LocalPosition: {x: -30, y: 0.3, z: -100}
   m_LocalScale: {x: 9, y: 3, z: 0.5}
   m_Children: []
   m_Father: {fileID: 410883552}
@@ -8978,9 +8957,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 1
   next_checkpoints:
   - collider: {fileID: 43242267}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &6859023741308921634
 GameObject:
@@ -9235,9 +9215,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextCollider: 
+  test: 
+  advantage: 0
   next_checkpoints:
   - collider: {fileID: 1214598834}
-    advantage: 1
   _next_nodes: 
 --- !u!1 &7315798391056632047
 GameObject:

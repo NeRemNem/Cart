@@ -11,24 +11,24 @@ behaviors:
       num_epoch: 3
       learning_rate_schedule: linear
     network_settings:
-      normalize: true
+      normalize: false
       hidden_units: 256
       num_layers: 2
       vis_encode_type: simple
     reward_signals:
       extrinsic:
-        gamma: 0.95
+        gamma: 0.9
         strength: 1.0
       gail:
         gamma: 0.95
         strength: 0.01
         network_settings:
-          normalize: true
+          normalize: false
           hidden_units: 256
           num_layers: 2
         learning_rate: 0.0003
         use_actions: true
-        demo_path: R:/Archive/Origin/RRR.demo
+        demo_path: R:/Archive/Origin/LR2_32stack.demo
     keep_checkpoints: 5
     max_steps: 1.0e7
     time_horizon: 10000

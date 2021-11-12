@@ -22,7 +22,7 @@ public class TrackPerceptionSensor : MonoBehaviour
         {
             var sensor = new TracktSensor();
             sensor.Transform = transform.GetChild(i);
-            sensor.RayDistance = 100f;
+            sensor.RayDistance = 30f;
             track_sensor.Add(sensor);
         }
     }

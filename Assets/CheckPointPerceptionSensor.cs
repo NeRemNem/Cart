@@ -71,20 +71,32 @@ public class CheckPointPerceptionSensor : MonoBehaviour
         {
             if (IsNextCheckpoint(hitInfo.collider, cur_checkpointID))
             {
-                return (1f, 1f, hitInfo.distance / sensor.RayDistance);
+                if (IsShortCut(hitInfo.collider))
+                {
+                    return (1f, 1f, hitInfo.distance / sensor.RayDistance);
+                }
+                else
+                {
+                    return (1f, 0f, hitInfo.distance / sensor.RayDistance);
+                }
             }
 
             if (hitInfo.collider.GetInstanceID() == cur_checkpointID)
             {
-                return (0f, 1f, hitInfo.distance / sensor.RayDistance);
+                return (0f, 0f, hitInfo.distance / sensor.RayDistance);
             }
             if (hitInfo.collider.GetInstanceID() != cur_checkpointID)
             {
-                return (-1f, 1f, hitInfo.distance / sensor.RayDistance);
+                return (-1f, 0f, hitInfo.distance / sensor.RayDistance);
             }
         }
 
         return (0f, 0f, 1f);
+    }
+
+    private bool IsShortCut(Collider checkPoint)
+    {
+        return _course.IsShortCut(checkPoint.GetInstanceID());
     }
     private bool IsNextCheckpoint(Collider checkPoint,int cur_checkpointID)
     {

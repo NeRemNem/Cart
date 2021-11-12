@@ -9,7 +9,11 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
-
+Assets/1.NN/
+Assets/2.LRModels/
+results/
+VectorBuild/
+VectorBuild2/
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -1845,3 +1849,25 @@ results/RRR_0.1/run_logs/Player-0.log
 results/RRR_0.1/RRR_0.1.onnx
 results/RRR_0.1/run_logs/timers.json
 results/RRR_0.1/run_logs/training_status.json
+*.zip
+Assets/1.NN/1.NN.zip.meta
+Assets/1.NN/LR_0.1.onnx
+Assets/1.NN/LR_0.1.onnx.meta
+Assets/1.NN/LRHard.onnx
+Assets/1.NN/LRHard.onnx.meta
+Assets/1.NN/LRSoft.onnx
+Assets/1.NN/LRSoft.onnx.meta
+Assets/1.NN/PPO.onnx
+Assets/1.NN/PPO.onnx.meta
+Assets/1.NN/RRHard.onnx
+Assets/1.NN/RRHard.onnx.meta
+Assets/1.NN/RRR_0.1.onnx
+Assets/1.NN/RRR_0.1.onnx.meta
+Assets/1.NN/RRSoft.onnx
+Assets/1.NN/RRSoft.onnx.meta
+Assets/2.LRModels/ArcadeDriver.onnx
+Assets/2.LRModels/ArcadeDriver.onnx.meta
+Assets/2.LRModels/LR.onnx
+Assets/2.LRModels/LR.onnx.meta
+Assets/1.NN/PPO.onnx
+Assets/1.NN/PPO.onnx.meta
