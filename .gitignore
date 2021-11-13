@@ -1871,3 +1871,5 @@ Assets/2.LRModels/LR.onnx
 Assets/2.LRModels/LR.onnx.meta
 Assets/1.NN/PPO.onnx
 Assets/1.NN/PPO.onnx.meta
+*.yaml
+Kart.yaml

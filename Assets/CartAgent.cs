@@ -157,6 +157,7 @@ public class CartAgent : Agent, IInput
             var toward = vector - cart_position;
             var item = Vector3.Dot(this.gameObject.transform.forward.normalized, toward.normalized);
             dot_obs.Add(item);
+            print(item);
         }
         while(dot_obs.Count != 3)
             dot_obs.Add(-1f);
