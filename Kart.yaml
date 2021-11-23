@@ -19,16 +19,6 @@ behaviors:
       extrinsic:
         gamma: 0.9
         strength: 1.0
-      gail:
-        gamma: 0.95
-        strength: 0.1
-        network_settings:
-          normalize: false
-          hidden_units: 256
-          num_layers: 2
-        learning_rate: 0.0003
-        use_actions: true
-        demo_path: R:/Archive/Origin/RR32.demo
     keep_checkpoints: 5
     max_steps: 1.0e7
     time_horizon: 10000

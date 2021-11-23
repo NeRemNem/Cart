@@ -34,6 +34,7 @@
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
+      <Path>VectorBuild</Path>
       <Path>obj</Path>
       <Path>results</Path>
     </explicitExcludes>

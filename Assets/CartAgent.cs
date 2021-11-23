@@ -28,6 +28,8 @@ public class CartAgent : Agent, IInput
 
     public UnityEvent Goal = new UnityEvent();
     public TrajectoryRecorder tr_record;
+    private List<float> dot_obs = new List<float>();
+
 
 
     void Awake()
@@ -61,15 +63,18 @@ public class CartAgent : Agent, IInput
 #endif
             AddReward(-0.1f);
         }
-        AddReward(-4.1f / MaxStep);
-        AddReward( (Mathf.Max(0f,m_Kart.LocalSpeed()))/ MaxStep);
+
+        CalcurateWrongWay();
+        
+        AddReward(-5.1f / MaxStep);
+        AddReward( (Mathf.Abs(m_Kart.LocalSpeed()))/ MaxStep);
     }
 
    
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(CalcurateVector());
+        sensor.AddObservation(GetVectorObs());
         sensor.AddObservation(checkpoint_sensor.GetObservation(_cur_checkpointID));
         sensor.AddObservation(track_sensor.GetObservation());
         sensor.AddObservation(dead_sensor.GetObservation());
@@ -133,7 +138,9 @@ public class CartAgent : Agent, IInput
     public override void OnEpisodeBegin()
     {
         _cur_checkpointID = course.StartPoint.GetInstanceID();
-        tr_record.Init();
+        if(tr_record != null)
+            tr_record.Init();
+
         var collider = course.StartPoint;
         transform.localRotation = collider.transform.rotation;
         transform.position = collider.transform.position;
@@ -145,10 +152,28 @@ public class CartAgent : Agent, IInput
         m_Steering = 0f;
     }
 
-    private List<float> CalcurateVector()
+    private List<float> GetVectorObs()
     {
-        List<float> dot_obs = new List<float>();
+        dot_obs.Clear();
+        float item = 1f;
+        foreach (var i in course.pos_map[_cur_checkpointID])
+        {            
+            var vector = new Vector3(i.x, 0f, i.z);
+            var cart_position = new Vector3(this.transform.position.x, 0f, this.transform.position.z);
+            var toward = vector - cart_position;
+            item = Vector3.Dot(this.gameObject.transform.forward.normalized, toward.normalized);
+            dot_obs.Add(item);
+        }
+        while (dot_obs.Count <= 1)
+        {
+            dot_obs.Add(item);
+        }
+        return dot_obs;
+    }
+    private void CalcurateWrongWay()
+    {
         int count = 0;
+        int minus_count = 0;
         foreach (var i in course.pos_map[_cur_checkpointID])
         {            
             var vector = new Vector3(i.x, 0f, i.z);
@@ -156,14 +181,22 @@ public class CartAgent : Agent, IInput
             count += 1;
             var toward = vector - cart_position;
             var item = Vector3.Dot(this.gameObject.transform.forward.normalized, toward.normalized);
-            dot_obs.Add(item);
-            print(item);
+            if (item <= -0.5f)
+                minus_count++;
         }
-        while(dot_obs.Count != 3)
-            dot_obs.Add(-1f);
-        
-        return dot_obs;
 
+        if (minus_count >= count)
+        {            
+            AddReward(-0.3f);
+#if UNITY_EDITOR
+            print("minus");
+#endif
+            
+        }
+        else
+        {
+            AddReward(1f/MaxStep);
+        }
     }
 
     #region InputThings

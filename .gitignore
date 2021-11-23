@@ -1873,3 +1873,5 @@ Assets/1.NN/PPO.onnx
 Assets/1.NN/PPO.onnx.meta
 *.yaml
 Kart.yaml
+*.onnx
+*.meta
